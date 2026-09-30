@@ -1,33 +1,88 @@
-<<<<<<< HEAD
-# QA-Report-Validator
-QA regression validation tool for medical case reports, enabling automated and AI-assisted comparison of generated reports and their underlying data to identify content differences, missing information, and unexpected changes across releases.
-=======
-# Python JSON Semantic Comparator
+# QA Report Validator
 
-This project compares expected JSON (`json1.json`) against actual JSON
-(`json2.json`) using report-specific rules and the local Claude Code CLI.
+Compare expected and generated JSON for medical reports with report-specific
+semantic checks. The validator looks for missing, changed, contradictory, and
+meaningfully unexpected information—not just differences in formatting or
+wording—and saves a readable Markdown report.
 
-It does NOT use the Claude API.
+## How it works
+
+1. Each comparator loads `json1.json` as the expected result and `json2.json`
+   as the actual result.
+2. It builds a comparison prompt using the rules for that report type.
+3. The prompt is sent to the locally installed Claude Code CLI.
+4. The response is saved in `reports/`.
+
+This project does not call the Claude API directly. JSON content is passed to
+Claude Code, so only use data in accordance with your organization's privacy
+and data-handling requirements.
 
 ## Requirements
 
-- Python 3.10+
-- Claude Code CLI installed and available as `claude`
-- Run from the project root
+- Python 3.10 or newer
+- Claude Code CLI installed, authenticated, and available as `claude` in your
+  terminal
 
-Test Claude Code:
+Check that Claude Code is available:
 
 ```powershell
 claude --version
 ```
 
-## Folder structure
+No additional Python packages are required.
+
+## Quick start
+
+From the project root, replace the sample inputs in the report folder you want
+to evaluate:
+
+- `json1.json` — expected result / source of truth
+- `json2.json` — actual result to evaluate
+
+Run a comparison in PowerShell:
+
+```powershell
+python .\run_comparator.py timeline
+```
+
+Choose one of the supported report types:
+
+| Report | Command |
+| --- | --- |
+| Medical Timeline | `timeline` or `medical_timeline` |
+| SoC | `soc` |
+| Clinical Summary | `clinical_summary` |
+| Case Management | `case_management` |
+| Scout | `scout` |
+
+For example, to compare the Scout inputs:
+
+```powershell
+python .\run_comparator.py scout
+```
+
+## Results
+
+Each run writes or replaces its report in `reports/`:
+
+| Report type | Output |
+| --- | --- |
+| Medical Timeline | `reports/medical_timeline-comparison.md` |
+| SoC | `reports/soc-comparison.md` |
+| Clinical Summary | `reports/clinical_summary-comparison.md` |
+| Case Management | `reports/case_management-comparison.md` |
+| Scout | `reports/scout-comparison.md` |
+
+The report includes an overall result, a summary by severity, details of
+missing or changed information, and additional information found in the actual
+JSON.
+
+## Project structure
 
 ```text
-pythonJudge/
+.
 ├── run_comparator.py
 ├── comparators/
-│   ├── __init__.py
 │   ├── semantic.py
 │   ├── medical_timeline.py
 │   ├── soc.py
@@ -35,75 +90,14 @@ pythonJudge/
 │   ├── case_management.py
 │   └── scout.py
 ├── medical_timeline/
-│   ├── json1.json
-│   └── json2.json
 ├── soc/
-│   ├── json1.json
-│   └── json2.json
 ├── clinical_summary/
-│   ├── json1.json
-│   └── json2.json
 ├── case_management/
-│   ├── json1.json
-│   └── json2.json
 ├── scout/
-│   ├── json1.json
-│   └── json2.json
 └── reports/
 ```
 
-Put your own JSON files into the five report folders.
-
-## Run individually
-
-Medical Timeline:
-
-```powershell
-python .\run_comparator.py timeline
-```
-
-SoC:
-
-```powershell
-python .\run_comparator.py soc
-```
-
-Clinical Summary:
-
-```powershell
-python .\run_comparator.py clinical_summary
-```
-
-Case Management:
-
-```powershell
-python .\run_comparator.py case_management
-```
-
-Scout:
-
-```powershell
-python .\run_comparator.py scout
-```
-
-## Output
-
-Claude's result is saved automatically to:
-
-```text
-reports/medical_timeline-comparison.md
-reports/soc-comparison.md
-reports/clinical_summary-comparison.md
-reports/case_management-comparison.md
-reports/scout-comparison.md
-```
-
-## Important
-
-`comparators/medical_timeline.py` is the Python comparator.
-
-`medical_timeline/json1.json` and `medical_timeline/json2.json` are the
-input data.
-
-They intentionally have similar names but are different things.
->>>>>>> d7ed181 (Initialization)
+Each report input folder contains `json1.json` and `json2.json`. The
+report-specific comparator modules define the focus and exclusions used for
+each comparison; `comparators/semantic.py` provides shared JSON loading and
+comparison-prompt logic.
