@@ -11,7 +11,6 @@ from comparators.scout import compare as compare_scout
 
 
 BASE_DIR = Path(__file__).resolve().parent
-REPORTS_DIR = BASE_DIR / "reports"
 
 
 COMPARATORS = {
@@ -96,6 +95,18 @@ def run_claude(prompt):
     return output
 
 
+def next_report_path(report_dir, folder_name):
+    report_number = 1
+
+    while True:
+        output_path = report_dir / (
+            f"{folder_name}-comparison{report_number}.md"
+        )
+        if not output_path.exists():
+            return output_path
+        report_number += 1
+
+
 def main():
     if len(sys.argv) != 2:
         print("Usage:")
@@ -153,8 +164,6 @@ def main():
             print(f"ERROR: Scout question file is empty: {question_path}")
             sys.exit(1)
 
-    REPORTS_DIR.mkdir(exist_ok=True)
-
     print(f"Running {report_name} comparison...")
     
     if report_type == "scout":
@@ -183,7 +192,7 @@ def main():
 
         result = run_claude(prompt)
 
-        output_path = REPORTS_DIR / f"{folder_name}-comparison.md"
+        output_path = next_report_path(report_dir, folder_name)
 
         output_path.write_text(
             result + "\n",

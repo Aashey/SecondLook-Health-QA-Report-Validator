@@ -11,7 +11,8 @@ wording—and saves a readable Markdown report.
    as the actual result.
 2. It builds a comparison prompt using the rules for that report type.
 3. The prompt is sent to the locally installed Claude Code CLI.
-4. The response is saved in `reports/`.
+4. The response is saved as a numbered Markdown report in that report type's
+   folder.
 
 This project does not call the Claude API directly. JSON content is passed to
 Claude Code, so only use data in accordance with your organization's privacy
@@ -74,16 +75,17 @@ python .\run_comparator.py scout
 
 ## Results
 
-Each run writes or replaces its report in `reports/`. Generated reports are
-ignored by Git and will not be pushed:
+Each run saves a new report in the corresponding input folder. Files are
+numbered sequentially, so rerunning a comparison never replaces an earlier
+report. Generated reports are ignored by Git and will not be pushed:
 
 | Report type | Output |
 | --- | --- |
-| Medical Timeline | `reports/medical_timeline-comparison.md` |
-| SoC | `reports/soc-comparison.md` |
-| Clinical Summary | `reports/clinical_summary-comparison.md` |
-| Case Management | `reports/case_management-comparison.md` |
-| Scout | `reports/scout-comparison.md` |
+| Medical Timeline | `medical_timeline/medical_timeline-comparison1.md`, then `...2.md`, `...3.md`, etc. |
+| SoC | `soc/soc-comparison1.md`, then `...2.md`, `...3.md`, etc. |
+| Clinical Summary | `clinical_summary/clinical_summary-comparison1.md`, then `...2.md`, `...3.md`, etc. |
+| Case Management | `case_management/case_management-comparison1.md`, then `...2.md`, `...3.md`, etc. |
+| Scout | `scout/scout-comparison1.md`, then `...2.md`, `...3.md`, etc. |
 
 The report includes an overall result, a summary by severity, details of
 missing or changed information, and additional information found in the actual
@@ -105,8 +107,7 @@ JSON.
 ├── soc/
 ├── clinical_summary/
 ├── case_management/
-├── scout/
-└── reports/
+└── scout/
 ```
 
 Each report input folder has tracked `json1.example.json` and
