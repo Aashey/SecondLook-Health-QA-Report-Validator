@@ -1,0 +1,6 @@
+# Local comparison inputs
+/*/json1.json
+/*/json2.json
+
+# Generated comparison results
+/reports/

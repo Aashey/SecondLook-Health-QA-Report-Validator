@@ -33,11 +33,22 @@ No additional Python packages are required.
 
 ## Quick start
 
-From the project root, replace the sample inputs in the report folder you want
-to evaluate:
+From the project root, copy the empty example inputs into the report folder you
+want to evaluate. The working `json1.json` and `json2.json` files are ignored by
+Git, so your report data and edits will not be pushed:
 
-- `json1.json` — expected result / source of truth
-- `json2.json` — actual result to evaluate
+- `json1.example.json` — empty template for the expected result / source of truth
+- `json2.example.json` — empty template for the actual result to evaluate
+
+For example, to prepare Scout inputs in PowerShell:
+
+```powershell
+Copy-Item .\scout\json1.example.json .\scout\json1.json
+Copy-Item .\scout\json2.example.json .\scout\json2.json
+```
+
+Repeat this for the report folder you want to evaluate. Replace the contents of
+the copied files with your local data.
 
 Run a comparison in PowerShell:
 
@@ -63,7 +74,8 @@ python .\run_comparator.py scout
 
 ## Results
 
-Each run writes or replaces its report in `reports/`:
+Each run writes or replaces its report in `reports/`. Generated reports are
+ignored by Git and will not be pushed:
 
 | Report type | Output |
 | --- | --- |
@@ -97,7 +109,9 @@ JSON.
 └── reports/
 ```
 
-Each report input folder contains `json1.json` and `json2.json`. The
-report-specific comparator modules define the focus and exclusions used for
-each comparison; `comparators/semantic.py` provides shared JSON loading and
-comparison-prompt logic.
+Each report input folder has tracked `json1.example.json` and
+`json2.example.json` templates. Copy them to the ignored `json1.json` and
+`json2.json` working files before running a comparison. The report-specific
+comparator modules define the focus and exclusions used for each comparison;
+`comparators/semantic.py` provides shared JSON loading and comparison-prompt
+logic.
