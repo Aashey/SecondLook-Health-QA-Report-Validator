@@ -1,6 +1,7 @@
 # Local comparison inputs
 /input/*/json1.json
 /input/*/json2.json
+/input/source
 
 # Generated comparison results
 /output/
