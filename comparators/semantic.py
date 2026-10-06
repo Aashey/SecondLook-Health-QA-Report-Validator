@@ -15,8 +15,7 @@ def load_json(path: Path):
 
 def compare_report(
     report_name,
-    focus,
-    ignore,
+    prompt,
     expected_path,
     actual_path,
 ):
@@ -36,11 +35,8 @@ Do NOT require JSON1 and JSON2 to be textually identical.
 The expected result is the source of truth. Determine whether the
 actual result conveys the same required information and meaning.
 
-REPORT-SPECIFIC FOCUS:
-{focus}
-
-DIFFERENCES TO IGNORE WHEN THEY DO NOT CHANGE MEANING:
-{ignore}
+REPORT-SPECIFIC INSTRUCTIONS:
+{prompt}
 
 GENERAL COMPARISON RULES:
 - Compare nested objects, arrays, sections, and individual fields.

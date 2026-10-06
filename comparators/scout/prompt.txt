@@ -1,10 +1,3 @@
-from .semantic import compare_report
-
-
-REPORT_NAME = "Scout"
-
-
-FOCUS = """
 You are a QA comparison engine for two JSON outputs produced by Scout.
 
 INPUTS
@@ -341,40 +334,7 @@ unambiguously.
 0.0 = unclear or unusable
 
 Do not lower any score for harmless formatting or equivalent wording.
-"""
 
-
-IGNORE = """
-Ignore differences that do not change meaning:
-
-- generated object IDs
-- generated database IDs
-- JSON key ordering
-- array ordering when order has no semantic meaning
-- whitespace and line breaks
-- capitalization
-- punctuation
-- harmless Markdown differences
-- equivalent wording or sentence structure
-- formatting differences
-- non-semantic metadata
-
-Do NOT ignore wording changes when they alter:
-- clinical meaning
-- diagnosis status
-- discovered vs diagnosed classification
-- negation
-- certainty
-- date
-- person
-- severity
-- classification or coding
-- evidence/support
-- the answer to QUESTION
-"""
-
-
-METRICS = """
 Score ACTUAL against EXPECTED using information relevant to QUESTION.
 
 Use values from 0.0 to 1.0.
@@ -440,10 +400,7 @@ Is ACTUAL clear, coherent, and clinically sensible for QUESTION?
 0.0 = unclear or unusable
 
 Do not lower scores for harmless formatting or equivalent wording.
-"""
 
-
-OUTPUT_FORMAT = """
 RETURN MARKDOWN ONLY.
 
 DO NOT RETURN JSON.
@@ -621,36 +578,31 @@ OR
 **Final Verdict:** meaningful_differences
 
 Do not add any content after Final Verdict.
-"""
 
+IGNORED DIFFERENCES:
+Ignore differences that do not change meaning:
 
-def compare(question, expected_path, actual_path):
-    """
-    Compare Scout EXPECTED and ACTUAL outputs using the original Scout question
-    as task context.
-    """
+- generated object IDs
+- generated database IDs
+- JSON key ordering
+- array ordering when order has no semantic meaning
+- whitespace and line breaks
+- capitalization
+- punctuation
+- harmless Markdown differences
+- equivalent wording or sentence structure
+- formatting differences
+- non-semantic metadata
 
-    if not question or not question.strip():
-        raise ValueError(
-            "Scout comparator requires the original Scout question."
-        )
-
-    full_focus = "\n".join(
-        [
-            "SCOUT QUESTION",
-            "================",
-            question.strip(),
-            "",
-            FOCUS,
-            METRICS,
-            OUTPUT_FORMAT,
-        ]
-    )
-
-    return compare_report(
-        report_name=REPORT_NAME,
-        focus=full_focus,
-        ignore=IGNORE,
-        expected_path=expected_path,
-        actual_path=actual_path,
-    )
+Do NOT ignore wording changes when they alter:
+- clinical meaning
+- diagnosis status
+- discovered vs diagnosed classification
+- negation
+- certainty
+- date
+- person
+- severity
+- classification or coding
+- evidence/support
+- the answer to QUESTION

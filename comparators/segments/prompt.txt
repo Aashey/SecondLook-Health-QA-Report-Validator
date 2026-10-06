@@ -1,0 +1,214 @@
+You are reviewing an LLM-generated medical document segmentation comparison.
+
+The JSON contains multiple source PDF files. Each file contains its own
+list of segments.
+
+The comparison MUST be evaluated FILE BY FILE.
+
+Do not compare segments from different files.
+
+The Python comparator has already performed the deterministic comparison.
+
+==================================================
+COMPARISON HIERARCHY
+==================================================
+
+Evaluate in this order:
+
+1. File names
+2. Segments within each file
+3. Logical segment matching
+4. Page ranges
+5. Possible splits
+6. Possible merges
+7. Missing segments
+8. Extra segments
+
+==================================================
+LOGICAL SEGMENT MATCHING
+==================================================
+
+Do NOT require segment 1 in JSON1 to match segment 1 in JSON2.
+
+A segment is considered logically related primarily using:
+
+- event
+- event_date
+- facility
+- provider
+
+The following fields are intentionally ignored:
+
+- line_id
+- is_verified
+- is_confusing
+- version
+
+Page numbers are NOT used as the primary identity of a segment.
+
+==================================================
+PAGE RANGE HANDLING
+==================================================
+
+Different page ranges do NOT automatically mean failure.
+
+For example:
+
+Expected:
+event = emergency-department-visit
+pages = 1-2
+
+Actual:
+event = emergency-department-visit
+pages = 1-1
+
+This is a PAGE_BOUNDARY_VARIATION because the same logical event is
+represented and the ranges overlap.
+
+Report this for QA review rather than automatically treating it as a failure.
+
+==================================================
+SPLIT HANDLING
+==================================================
+
+One logical segment may be split into multiple actual segments.
+
+Example:
+
+Expected:
+Emergency Department Visit | pages 1-2
+
+Actual:
+Emergency Department Visit | pages 1-1
+Emergency Department Visit | pages 2-2
+
+This should be reported as:
+
+POSSIBLE SPLIT
+
+Do not automatically call this a failure.
+
+The QA team should verify whether the split is acceptable based on the
+actual source document.
+
+==================================================
+MERGE HANDLING
+==================================================
+
+Multiple expected segments may be represented as one actual segment.
+
+Example:
+
+Expected:
+Event A | pages 1-1
+Event B | pages 2-2
+
+Actual:
+Event A/Event B | pages 1-2
+
+This should be reported as:
+
+POSSIBLE MERGE
+
+Do not automatically fail solely because the segment count changed.
+
+==================================================
+VERDICT
+==================================================
+
+Use exactly one overall verdict:
+
+PASS
+----
+Use PASS when all logical events are represented and differences are limited
+to acceptable page-boundary variations.
+
+REVIEW
+------
+Use REVIEW when there are:
+
+- possible splits
+- possible merges
+- unusual page-range differences
+- ambiguous segment matching
+- file-level differences that require QA verification
+
+REVIEW means the validator found a meaningful variation but cannot determine
+from JSON alone whether it is incorrect.
+
+FAIL
+----
+Use FAIL when there is a meaningful logical discrepancy, such as:
+
+- a source file is completely missing
+- a logical segment is missing
+- an incorrect event is generated
+- event/date/facility/provider materially differ
+- an unexpected segment has no reasonable logical relationship
+- the segmentation is materially different
+
+Do NOT fail solely because:
+
+- array positions differ
+- segment counts differ
+- page boundaries differ
+- one segment was split into multiple segments
+- multiple segments were merged into one segment
+
+==================================================
+QA REPORT FORMAT
+==================================================
+
+Provide:
+
+## Overall Verdict
+
+PASS / REVIEW / FAIL
+
+## File Summary
+
+Show:
+
+- expected file count
+- actual file count
+- missing files
+- extra files
+
+## File-by-File Results
+
+For every file, show:
+
+- expected segment count
+- actual segment count
+- logical matches
+- page-boundary variations
+- possible splits
+- possible merges
+- missing segments
+- extra segments
+
+For every REVIEW or FAIL finding, show:
+
+- event
+- event_date
+- facility
+- provider
+- expected page range
+- actual page range
+
+## QA Conclusion
+
+Give a concise explanation of what QA needs to manually verify.
+
+Do not invent values.
+
+Do not use source documents.
+
+Do not use source.json.
+
+Do not perform source-grounded validation.
+
+DETERMINISTIC COMPARISON
+========================
+
+{{comparison}}

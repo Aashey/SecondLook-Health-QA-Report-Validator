@@ -1,9 +1,4 @@
-from .semantic import compare_report
-
-
-REPORT_NAME = "Clinical Summary"
-
-FOCUS = """
+REPORT-SPECIFIC FOCUS:
 Compare all meaningful Clinical Summary information, including:
 - diagnoses
 - conditions
@@ -20,9 +15,8 @@ Compare all meaningful Clinical Summary information, including:
 - assessments
 - clinically relevant narrative
 - any information affecting correctness or meaning
-"""
 
-IGNORE = """
+DIFFERENCES TO IGNORE WHEN THEY DO NOT CHANGE MEANING:
 Ignore differences caused only by:
 - generated object IDs
 - JSON key ordering
@@ -39,14 +33,3 @@ Ignore differences caused only by:
 
 Do not ignore a difference when it changes clinical meaning or removes/adds
 meaningful information.
-"""
-
-
-def compare(expected_path, actual_path):
-    return compare_report(
-        report_name=REPORT_NAME,
-        focus=FOCUS,
-        ignore=IGNORE,
-        expected_path=expected_path,
-        actual_path=actual_path,
-    )

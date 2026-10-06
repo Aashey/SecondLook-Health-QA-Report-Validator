@@ -1,9 +1,4 @@
-from .semantic import compare_report
-
-
-REPORT_NAME = "Case Management"
-
-FOCUS = """
+REPORT-SPECIFIC FOCUS:
 Compare Case Management data semantically and functionally.
 
 Focus on:
@@ -29,9 +24,8 @@ fields must be compared by their actual values.
 
 Do not assume every ID is ignorable. A generated technical ID may differ
 between runs, but a functionally meaningful identifier must be validated.
-"""
 
-IGNORE = """
+DIFFERENCES TO IGNORE WHEN THEY DO NOT CHANGE MEANING:
 Ignore differences caused only by:
 - generated technical IDs when they are not functionally meaningful
 - JSON key ordering
@@ -44,14 +38,3 @@ Ignore differences caused only by:
 
 Do NOT ignore differences in status, dates, assignments, configuration,
 functional identifiers, or other values when they affect functionality.
-"""
-
-
-def compare(expected_path, actual_path):
-    return compare_report(
-        report_name=REPORT_NAME,
-        focus=FOCUS,
-        ignore=IGNORE,
-        expected_path=expected_path,
-        actual_path=actual_path,
-    )

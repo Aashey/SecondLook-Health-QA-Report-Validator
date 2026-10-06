@@ -5,7 +5,7 @@ from collections import Counter
 
 
 BASE_DIR = Path(__file__).resolve().parent
-SOURCE_PATH = BASE_DIR / "Source" / "source.json"
+SOURCE_PATH = BASE_DIR / "input" / "source" / "source.json"
 
 
 # Common words that do not help source retrieval.

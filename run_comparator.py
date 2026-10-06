@@ -3,12 +3,18 @@ import subprocess
 import sys
 from pathlib import Path
 
-from comparators.medical_timeline import compare as compare_timeline
-from comparators.soc import compare as compare_soc
-from comparators.clinical_summary import compare as compare_clinical_summary
-from comparators.case_management import compare as compare_case_management
-from comparators.scout import compare as compare_scout
-from comparators.segments import compare as compare_segments
+from comparators.medical_timeline.medical_timeline import (
+    compare as compare_timeline,
+)
+from comparators.soc.soc import compare as compare_soc
+from comparators.clinical_summary.clinical_summary import (
+    compare as compare_clinical_summary,
+)
+from comparators.case_management.case_management import (
+    compare as compare_case_management,
+)
+from comparators.scout.scout import compare as compare_scout
+from comparators.segments.segments import compare as compare_segments
 
 from source_judge import build_source_validation
 
@@ -164,7 +170,7 @@ def main():
         report_type
     ]
 
-    report_dir = BASE_DIR / folder_name
+    report_dir = BASE_DIR / "input" / folder_name
 
     expected_path = report_dir / "json1.json"
     actual_path = report_dir / "json2.json"
@@ -200,7 +206,7 @@ def main():
             )
 
             print(
-                "Create scout/question.txt containing the "
+                "Create input/scout/question.txt containing the "
                 "exact question asked to Scout."
             )
 
@@ -281,7 +287,7 @@ def main():
         if report_type == "segments":
 
             output_path = next_report_path(
-                BASE_DIR / "reports",
+                BASE_DIR / "output",
                 folder_name,
             )
 
@@ -361,7 +367,7 @@ def main():
         # ======================================================
 
         output_path = next_report_path(
-            BASE_DIR / "reports",
+            BASE_DIR / "output",
             folder_name,
         )
 

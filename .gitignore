@@ -1,7 +1,7 @@
 # Local comparison inputs
-/*/json1.json
-/*/json2.json
+/input/*/json1.json
+/input/*/json2.json
 
 # Generated comparison results
-/reports/
+/output/
 /*/*-comparison*.md
