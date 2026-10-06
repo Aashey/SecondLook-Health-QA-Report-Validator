@@ -75,17 +75,18 @@ python .\run_comparator.py scout
 
 ## Results
 
-Each run saves a new report in the corresponding input folder. Files are
-numbered sequentially, so rerunning a comparison never replaces an earlier
-report. Generated reports are ignored by Git and will not be pushed:
+Each run saves a new report in its own numbered folder under `reports`. Runs
+are numbered separately for each report type, so rerunning a comparison never
+replaces an earlier report. Generated reports are ignored by Git and will not
+be pushed:
 
 | Report type | Output |
 | --- | --- |
-| Medical Timeline | `medical_timeline/medical_timeline-comparison1.md`, then `...2.md`, `...3.md`, etc. |
-| SoC | `soc/soc-comparison1.md`, then `...2.md`, `...3.md`, etc. |
-| Clinical Summary | `clinical_summary/clinical_summary-comparison1.md`, then `...2.md`, `...3.md`, etc. |
-| Case Management | `case_management/case_management-comparison1.md`, then `...2.md`, `...3.md`, etc. |
-| Scout | `scout/scout-comparison1.md`, then `...2.md`, `...3.md`, etc. |
+| Medical Timeline | `reports/medical_timeline/1/comparison.md`, then `.../2/comparison.md`, `.../3/comparison.md`, etc. |
+| SoC | `reports/soc/1/comparison.md`, then `.../2/comparison.md`, `.../3/comparison.md`, etc. |
+| Clinical Summary | `reports/clinical_summary/1/comparison.md`, then `.../2/comparison.md`, `.../3/comparison.md`, etc. |
+| Case Management | `reports/case_management/1/comparison.md`, then `.../2/comparison.md`, `.../3/comparison.md`, etc. |
+| Scout | `reports/scout/1/comparison.md`, then `.../2/comparison.md`, `.../3/comparison.md`, etc. |
 
 The report includes an overall result, a summary by severity, details of
 missing or changed information, and additional information found in the actual

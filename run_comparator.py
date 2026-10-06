@@ -8,6 +8,9 @@ from comparators.soc import compare as compare_soc
 from comparators.clinical_summary import compare as compare_clinical_summary
 from comparators.case_management import compare as compare_case_management
 from comparators.scout import compare as compare_scout
+from comparators.segments import compare as compare_segments
+
+from source_judge import build_source_validation
 
 
 BASE_DIR = Path(__file__).resolve().parent
@@ -19,30 +22,41 @@ COMPARATORS = {
         "medical_timeline",
         compare_timeline,
     ),
+
     "medical_timeline": (
         "Medical Timeline",
         "medical_timeline",
         compare_timeline,
     ),
+
     "soc": (
         "SoC",
         "soc",
         compare_soc,
     ),
+
     "clinical_summary": (
         "Clinical Summary",
         "clinical_summary",
         compare_clinical_summary,
     ),
+
     "case_management": (
         "Case Management",
         "case_management",
         compare_case_management,
     ),
+
     "scout": (
         "Scout",
         "scout",
         compare_scout,
+    ),
+
+    "segments": (
+        "Segments",
+        "segments",
+        compare_segments,
     ),
 }
 
@@ -77,6 +91,7 @@ def run_claude(prompt):
             check=False,
             shell=use_shell,
         )
+
     except FileNotFoundError:
         raise RuntimeError(
             "Claude Code CLI was not found. "
@@ -85,29 +100,44 @@ def run_claude(prompt):
 
     if result.returncode != 0:
         error = result.stderr.strip() or result.stdout.strip()
-        raise RuntimeError(f"Claude Code failed:\n{error}")
+
+        raise RuntimeError(
+            f"Claude Code failed:\n{error}"
+        )
 
     output = result.stdout.strip()
 
     if not output:
-        raise RuntimeError("Claude Code returned an empty response.")
+        raise RuntimeError(
+            "Claude Code returned an empty response."
+        )
 
     return output
 
 
-def next_report_path(report_dir, folder_name):
+def next_report_path(reports_dir, report_type):
     report_number = 1
 
     while True:
-        output_path = report_dir / (
-            f"{folder_name}-comparison{report_number}.md"
+        output_dir = (
+            reports_dir
+            / report_type
+            / str(report_number)
         )
-        if not output_path.exists():
-            return output_path
+
+        if not output_dir.exists():
+            output_dir.mkdir(
+                parents=True,
+                exist_ok=True,
+            )
+
+            return output_dir / "comparison.md"
+
         report_number += 1
 
 
 def main():
+
     if len(sys.argv) != 2:
         print("Usage:")
         print("  python run_comparator.py timeline")
@@ -115,19 +145,24 @@ def main():
         print("  python run_comparator.py clinical_summary")
         print("  python run_comparator.py case_management")
         print("  python run_comparator.py scout")
+        print("  python run_comparator.py segments")
         sys.exit(1)
 
     report_type = sys.argv[1].lower()
 
     if report_type not in COMPARATORS:
         print(f"Unknown comparator: {report_type}")
+
         print(
             "Available: timeline, soc, clinical_summary, "
-            "case_management, scout"
+            "case_management, scout, segments"
         )
+
         sys.exit(1)
 
-    report_name, folder_name, comparator = COMPARATORS[report_type]
+    report_name, folder_name, comparator = COMPARATORS[
+        report_type
+    ]
 
     report_dir = BASE_DIR / folder_name
 
@@ -135,25 +170,40 @@ def main():
     actual_path = report_dir / "json2.json"
 
     if not expected_path.exists():
-        print(f"ERROR: Expected JSON not found: {expected_path}")
+        print(
+            f"ERROR: Expected JSON not found: "
+            f"{expected_path}"
+        )
         sys.exit(1)
 
     if not actual_path.exists():
-        print(f"ERROR: Actual JSON not found: {actual_path}")
+        print(
+            f"ERROR: Actual JSON not found: "
+            f"{actual_path}"
+        )
         sys.exit(1)
 
+    # ----------------------------------------------------------
     # Scout requires the original question.
+    # ----------------------------------------------------------
+
     question = None
 
     if report_type == "scout":
+
         question_path = report_dir / "question.txt"
 
         if not question_path.exists():
-            print(f"ERROR: Scout question not found: {question_path}")
             print(
-                "Create scout/question.txt containing the exact "
-                "question asked to Scout."
+                f"ERROR: Scout question not found: "
+                f"{question_path}"
             )
+
+            print(
+                "Create scout/question.txt containing the "
+                "exact question asked to Scout."
+            )
+
             sys.exit(1)
 
         question = question_path.read_text(
@@ -161,11 +211,20 @@ def main():
         ).strip()
 
         if not question:
-            print(f"ERROR: Scout question file is empty: {question_path}")
+            print(
+                f"ERROR: Scout question file is empty: "
+                f"{question_path}"
+            )
             sys.exit(1)
 
-    print(f"Running {report_name} comparison...")
-    
+    # ----------------------------------------------------------
+    # Start
+    # ----------------------------------------------------------
+
+    print(
+        f"Running {report_name} comparison..."
+    )
+
     if report_type == "scout":
         print(f"Question: {question}")
 
@@ -174,36 +233,163 @@ def main():
     print()
 
     try:
-        # Scout is the only comparator that requires an additional
-        # question/context argument.
+
+        # ======================================================
+        # STAGE 1
+        # JSON1 vs JSON2 comparison
+        # ======================================================
+
         if report_type == "scout":
-            prompt = comparator(
+
+            comparison_prompt = comparator(
                 question,
                 expected_path,
                 actual_path,
             )
+
         else:
-            prompt = comparator(
+
+            comparison_prompt = comparator(
                 expected_path,
                 actual_path,
             )
 
-        print("Sending comparison to Claude Code...")
+        print(
+            "Sending comparison to Claude Code..."
+        )
 
-        result = run_claude(prompt)
+        comparison_result = run_claude(
+            comparison_prompt
+        )
 
-        output_path = next_report_path(report_dir, folder_name)
+        print(
+            "Initial comparison complete."
+        )
+
+        # ======================================================
+        # SEGMENTS
+        #
+        # Segments do NOT use source.json.
+        #
+        # They only need:
+        #
+        # JSON1 → JSON2 → comparator → Claude → report
+        #
+        # No source validation.
+        # ======================================================
+
+        if report_type == "segments":
+
+            output_path = next_report_path(
+                BASE_DIR / "reports",
+                folder_name,
+            )
+
+            output = (
+                "# QA Report\n\n"
+                "## JSON1 vs JSON2 Comparison\n\n"
+                f"{comparison_result}\n"
+            )
+
+            output_path.write_text(
+                output,
+                encoding="utf-8",
+            )
+
+            print()
+            print(
+                "QA evaluation complete."
+            )
+
+            print(
+                f"Report saved: {output_path}"
+            )
+
+            return
+
+        # ======================================================
+        # STAGE 2
+        # Source-grounded validation
+        #
+        # Only non-segment comparators reach this section.
+        # ======================================================
+
+        print(
+            "Searching source.json for relevant evidence..."
+        )
+
+        source_prompt, source_chunks = (
+            build_source_validation(
+                report_type=report_type,
+                expected_path=expected_path,
+                actual_path=actual_path,
+                comparison=comparison_result,
+                question=question,
+                top_k=8,
+            )
+        )
+
+        print(
+            f"Retrieved {len(source_chunks)} "
+            "relevant source chunks."
+        )
+
+        if source_chunks:
+
+            print("Source evidence:")
+
+            for chunk in source_chunks:
+
+                print(
+                    f"  - {chunk['file_name']} "
+                    f"(PDF page {chunk['page_number']}, "
+                    f"{chunk['chunk_id']})"
+                )
+
+        print()
+
+        print(
+            "Sending source-grounded validation to Claude Code..."
+        )
+
+        final_result = run_claude(
+            source_prompt
+        )
+
+        # ======================================================
+        # SAVE SOURCE-GROUNDED REPORT
+        # ======================================================
+
+        output_path = next_report_path(
+            BASE_DIR / "reports",
+            folder_name,
+        )
+
+        output = (
+            "# Source-Grounded QA Report\n\n"
+            "## Initial JSON1 vs JSON2 Comparison\n\n"
+            f"{comparison_result}\n\n"
+            "---\n\n"
+            "## Source-Grounded Validation\n\n"
+            f"{final_result}\n"
+        )
 
         output_path.write_text(
-            result + "\n",
+            output,
             encoding="utf-8",
         )
 
         print()
-        print("Claude evaluation complete.")
-        print(f"Report saved: {output_path}")
+        print(
+            "Source-grounded QA evaluation complete."
+        )
+
+        print(
+            f"Report saved: {output_path}"
+        )
 
     except Exception as exc:
+
         print()
         print(f"ERROR: {exc}")
         sys.exit(1)
