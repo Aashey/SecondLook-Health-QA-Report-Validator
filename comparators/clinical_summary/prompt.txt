@@ -1,0 +1,35 @@
+REPORT-SPECIFIC FOCUS:
+Compare all meaningful Clinical Summary information, including:
+- diagnoses
+- conditions
+- symptoms
+- medical history
+- clinical findings
+- procedures
+- treatments
+- medications
+- outcomes
+- clinically meaningful dates
+- providers when clinically meaningful
+- facilities when clinically meaningful
+- assessments
+- clinically relevant narrative
+- any information affecting correctness or meaning
+
+DIFFERENCES TO IGNORE WHEN THEY DO NOT CHANGE MEANING:
+Ignore differences caused only by:
+- generated object IDs
+- JSON key ordering
+- array ordering when order has no semantic meaning
+- whitespace
+- line breaks
+- capitalization when meaning is unchanged
+- punctuation
+- formatting
+- harmless Markdown differences
+- equivalent wording
+- equivalent sentence structure
+- non-semantic metadata
+
+Do not ignore a difference when it changes clinical meaning or removes/adds
+meaningful information.

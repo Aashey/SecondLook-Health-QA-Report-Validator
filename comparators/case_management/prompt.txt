@@ -1,0 +1,40 @@
+REPORT-SPECIFIC FOCUS:
+Compare Case Management data semantically and functionally.
+
+Focus on:
+- case information
+- case identifiers when functionally meaningful
+- case status
+- processing status
+- workflow status
+- file information
+- file status
+- upload information
+- case dates
+- assigned users
+- organization/client information
+- case configuration
+- processing state
+- report state
+- meaningful case metadata
+- other values affecting Case Management functionality
+
+Status, dates, assignments, configuration values, and other functional
+fields must be compared by their actual values.
+
+Do not assume every ID is ignorable. A generated technical ID may differ
+between runs, but a functionally meaningful identifier must be validated.
+
+DIFFERENCES TO IGNORE WHEN THEY DO NOT CHANGE MEANING:
+Ignore differences caused only by:
+- generated technical IDs when they are not functionally meaningful
+- JSON key ordering
+- array ordering when order has no semantic meaning
+- whitespace
+- line breaks
+- harmless formatting
+- equivalent textual wording when meaning is unchanged
+- non-semantic metadata
+
+Do NOT ignore differences in status, dates, assignments, configuration,
+functional identifiers, or other values when they affect functionality.

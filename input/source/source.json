@@ -1,0 +1,1025 @@
+{
+  "metadata": {
+    "total_documents": 3,
+    "total_chunks": 125
+  },
+  "documents": [
+    {
+      "document_id": "doc001",
+      "file_name": "02-23-2020 - ED to Hosp-Admission (Discharged).PDF.pdf",
+      "page_count": 15
+    },
+    {
+      "document_id": "doc002",
+      "file_name": "EMR Report.pdf",
+      "page_count": 15
+    },
+    {
+      "document_id": "doc003",
+      "file_name": "Hospital Encounters.pdf",
+      "page_count": 20
+    }
+  ],
+  "chunks": [
+    {
+      "chunk_id": "doc001_p001_c001",
+      "document_id": "doc001",
+      "file_name": "02-23-2020 - ED to Hosp-Admission (Discharged).PDF.pdf",
+      "page_number": 1,
+      "chunk_index": 0,
+      "text": "Dannemann, William J\nfits KAISER PERMANENTE.. MRN: 110016124151, DOB: 12/18/1991,\nLegal Sex: M\n\nSSN: xxx-xx-7829\nAdm: 2/23/2020, D/C: 2/28/2020\n\n02/23/2020 - ED to Hosp-Admission (Discharged) in 5TH FLR CENTER NSG UNIT TELE\nHospital INFO\n\nAdmission Information\n\nCurrent Information\n\nAttending at Discharge Admitting Provider Admission Type Admission Status\nMok, Kenny Yeukhon (M.D.) Mui, Homero Juan (M.D.) Urgent Confirmed Discharge\nAdmission Date/Time Discharge Date/Time Hospital Service Auth/Cert Status\n02/23/20 2122 02/28/20 1230 Internal Medicine Incomplete\n\nHospital Area Unit Room/Bed\n\nSFO-HOSPITAL SFO-5C** >HOSPITAL 5323/5323-A\n\nDischarge Disposition Discharge Destination\n\nHome or Self Care.\n\n02/23/2020 - ED to Hosp-Admission (Discharged) in 5TH FLR CENTER NSG UNIT TELE (continued)\nVisit Information\n\nAdmission Information\nArrival Date/Time: 02/23/2020 9:16 PM Admit Date/Time: 02/23/2020 9:22 PM IP Adm. Date/Time: 02/26/2020 9:58 AM"
+    },
+    {
+      "chunk_id": "doc001_p001_c002",
+      "document_id": "doc001",
+      "file_name": "02-23-2020 - ED to Hosp-Admission (Discharged).PDF.pdf",
+      "page_number": 1,
+      "chunk_index": 1,
+      "text": "Admission Type: Urgent Point of Origin: Non-health Care Admit Category: Unscheduled, Less\nFacility Point Of Than 24 Hours Prior\nOrigin To Admission\nMeans of Arrival: Taxi Primary Service: Internal Medicine Secondary Service: N/A\nTransfer Source: Not Applicable Service Area: NORTHERN Unit: 5TH FLR CENTER\nCALIFORNIA NSG UNIT TELE\nREGION\nAdmit Provider: Mui, Homero Juan Attending Provider: Reeves, Jabari Cecil Referring Provider:\n(M.D.) (M.D.)\nED Disposition\nED Disposition Condition User Date/Time Comment\nADM TELE -- Marquez Mon Feb 24, --\nMaldonado, 2020 1:16 AM\nAleshka\n\nDischarge Information\n\nDate/Time: 02/28/2020 12:30 PM Disposition: Home Or Self Care. Destination: —\nProvider: Mok, Kenny Yeukhon (M.D.) Unit: 5TH FLR CENTER NSG UNIT TELE\n\nLevel of Service\n\nLevel of Service\nED VISIT LEVEL 4\n\nReason for Visit\n\nChief Complaint"
+    },
+    {
+      "chunk_id": "doc001_p001_c003",
+      "document_id": "doc001",
+      "file_name": "02-23-2020 - ED to Hosp-Admission (Discharged).PDF.pdf",
+      "page_number": 1,
+      "chunk_index": 2,
+      "text": "e RASH (to entire body itchy including palms, some swelling to chin and cheeks; denies sob; had an ASD repair 2/12; has had itching\nand burning to palms since 2/14; taking claritin and benadryl without relief; denies cp; a/w body aches and chills, joint pains, has not\nchecked his temp at home)\n\nRevision History\n\nVoinov, Mary (R.N.) on 2/23/2020 2120\ne RASH (to entire body itchy including palms, some swelling to chin and cheeks; denies sob; had an ASD repair 2/12; has had\nitching and burning to palms since 2/14; taking claritin and benadryl without relief; denies cp)\n\nGenerated on 8/27/24 4:29 PM"
+    },
+    {
+      "chunk_id": "doc001_p002_c001",
+      "document_id": "doc001",
+      "file_name": "02-23-2020 - ED to Hosp-Admission (Discharged).PDF.pdf",
+      "page_number": 2,
+      "chunk_index": 0,
+      "text": "Dannemann, William J\n\niy KAISER PERMANENTE.. MRN: 110016124151, DOB: 12/18/1991,\n\nLegal Sex: M\n\nSSN: xxx-xx-7829\n\nAdm: 2/23/2020, D/C: 2/28/2020\n02/23/2020 - ED to Hosp-Admission (Discharged) in 5TH FLR CENTER NSG UNIT TELE (continued)\n\nReason for Visit (continued)\n\nVisit Diagnoses\n\nName Code Is ED?\nPULMONARY EMBOLISM (primary) 126.99 Yes\nURTICARIA L50.9 Yes\nATRIAL SEPTAL DEFECT Q?1.1 No\nHX OF AMPLATZER ATRIAL SEPTAL DEFECT 287.74 No\nCLOSURE\nRevision History\nActio Is\nn Name Code ED? User\nDiagnosis #1\nAdd PULMONARY EMBOLISM, UNSPECIFIED. 126.99 Yes Reeves, Jabari Cecil\n(primary) (M.D.)\nDiagnosis #2\nAdd URTICARIA L50.9 Yes Reeves, Jabari Cecil\n(M.D.)\nDiagnosis #3\nModify ATRIAL SEPTAL DEFECT, UNSPECIFIED Q21.1 No Mok, Kenny Yeukhon\n(M.D.)\nAdd ATRIAL SEPTAL DEFECT, UNSPECIFIED Q21.1 No San Augustin, Ernesto\n(R.N.)\nDiagnosis #4\n\nModify HX OF AMPLATZER ATRIAL SEPTAL DEFECT 287.7 No Mok, Kenny Yeukhon\n\nCLOSURE 4 (M.D.)\n\nAdd HX OF AMPLATZER ATRIAL SEPTAL DEFECT 2Z87.7 No San Augustin, Ernesto"
+    },
+    {
+      "chunk_id": "doc001_p002_c002",
+      "document_id": "doc001",
+      "file_name": "02-23-2020 - ED to Hosp-Admission (Discharged).PDF.pdf",
+      "page_number": 2,
+      "chunk_index": 1,
+      "text": "CLOSURE 4 (R.N.)\n\nHospital Problems\n\nName Code Date Noted Date Resolved\nATRIAL SEPTAL DEFECT (primary) Q21.1 06/23/2017 —\nCRYPTOGENIC STROKE 163.9 12/02/2019 —\n\nELEVATED TROPONIN | R79.89 12/02/2019 —\n\nHX OF AMPLATZER ATRIAL SEPTAL DEFECT 287.74 02/12/2020 —\n\nCLOSURE\n\nPULMONARY EMBOLISM 126.99 02/24/2020 —\n\nRASH R21 02/24/2020 —\n\nVisit Account Information\n\nHospital Account\n\nName Acct ID Class Status\nDannemann, William J 3141643089 Inpatient Closed\n23\n\nGuarantor Account (for Hospital Account #314164308923)\n\nRelation to\nName Pt Service Area Active?\n\nGenerated on 8/27/24 4:29 PM\n\nDate/Time\n\n02/24/2020 0033\n\n02/24/2020 0033\n\n02/28/2020 1014\n\n02/27/2020 0830\n\n02/28/2020 1014\n\n02/27/2020 0830\n\nPresent on\nAdmission?\nExempt from POA\nreporting\n\nYes\n\nExempt from POA\nreporting\n\nExempt from POA\nreporting\n\nExempt from POA\nreporting\n\nExempt from POA\nreporting\n\nPrimary Coverage\nSELF-\nFUNDED/IKPIC - S-F\nEPO DED(EE-E)\nPLAN 4358997\n\nAcct Type"
+    },
+    {
+      "chunk_id": "doc001_p003_c001",
+      "document_id": "doc001",
+      "file_name": "02-23-2020 - ED to Hosp-Admission (Discharged).PDF.pdf",
+      "page_number": 3,
+      "chunk_index": 0,
+      "text": "Dannemann, William J\n\nMRN: 110016124151, DOB: 12/18/1991,\nLegal Sex: M\n\nSSN: xxx-xx-7829\n\nAdm: 2/23/2020, D/C: 2/28/2020\n\n02/23/2020 - ED to Hosp-Admission (Discharged) in 5TH FLR CENTER NSG UNIT TELE (continued)\n\nVisit Account Information (continued)\n\n#% KAISER PERMANENTE.\n\nDannemann, William J Self NCAL Yes\n\nAddress\n\n159 Harold Ave\nSAN FRANCISCO, CA 94112\n\nPhone\n\n203-801-8468(H)\n203-801-8468(0)\n\nCoverage Information (for Hospital Account #314164308923)\n\nPersonal/Family\n\nF/O Payor/Plan Precert #\nSELF-FUNDED/KPIC/SANDIA CORPORATION ACTIVE HRA EE AND EE+FAM\n\nSubscriber Subscriber #\nDannemann, William J 110016124151\nAddress Phone\n\nPO BOX 30547\n\nSALT LAKE CITY, UT 84130-0547\n\nEvents\n\nED Arrival at 2/23/2020 2116\nUnit: KP SAN FRANCISCO ED\n\nAdmission at 2/23/2020 2122\n\n614-212-7005\n\nUnit: KP SAN FRANCISCO ED Room: PC Bed: PC-22\nPatient class: Emergency Service: Emergency Medicine"
+    },
+    {
+      "chunk_id": "doc001_p003_c002",
+      "document_id": "doc001",
+      "file_name": "02-23-2020 - ED to Hosp-Admission (Discharged).PDF.pdf",
+      "page_number": 3,
+      "chunk_index": 1,
+      "text": "ED Roomed at 2/23/2020 2122\nUnit: KP SAN FRANCISCO ED Room: PC Bed: PC-22\nPatient class: Emergency Service: Emergency Medicine\n\nPatient Update at 2/24/2020 0113\nUnit: KP SAN FRANCISCO ED Room: PC Bed: PC-22\nPatient class: Observation Service: Internal Medicine\n\nPatient Update at 2/24/2020 0123\nUnit: KP SAN FRANCISCO ED Room: PC Bed: PC-22\nPatient class: Observation Service: Internal Medicine\n\nTransfer In at 2/24/2020 0539\nUnit: KP SAN FRANCISCO ED Room: PC Bed: PC-11\nPatient class: Observation Service: Internal Medicine\n\nED Transfer at 2/24/2020 0539\nUnit: KP SAN FRANCISCO ED Room: PC Bed: PC-11\nPatient class: Observation Service: Internal Medicine\n\nTransfer In at 2/24/2020 1504\nUnit: 6SO Room: 6413 Bed: 6413-B\nPatient class: Observation Service: Internal Medicine\n\nAdmit from ED at 2/24/2020 1504\nUnit: 6SO Room: 6413 Bed: 6413-B\nPatient class: Observation Service: Internal Medicine\n\nPatient Update at 2/26/2020 0958\nUnit: 6SO Room: 6413 Bed: 6413-B\n\nPatient class: Inpatient"
+    },
+    {
+      "chunk_id": "doc001_p003_c003",
+      "document_id": "doc001",
+      "file_name": "02-23-2020 - ED to Hosp-Admission (Discharged).PDF.pdf",
+      "page_number": 3,
+      "chunk_index": 2,
+      "text": "Generated on 8/27/24 4:29 PM\n\nService: Internal Medicine"
+    },
+    {
+      "chunk_id": "doc001_p004_c001",
+      "document_id": "doc001",
+      "file_name": "02-23-2020 - ED to Hosp-Admission (Discharged).PDF.pdf",
+      "page_number": 4,
+      "chunk_index": 0,
+      "text": "Dannemann, William J\n\nfy KAISER PERMANENTE... MRN: 110016124151, DOB: 12/18/1991,\n\nLegal Sex: M\nSSN: xxx-xx-7829\nAdm: 2/23/2020, D/C: 2/28/2020\n\n02/23/2020 - ED to Hosp-Admission (Discharged) in 5TH FLR CENTER NSG UNIT TELE (continued)\n\nEvents (continued)\n\nTransfer Out at 2/27/2020 0551\n\nUnit: 6SO Room: 6413 Bed: 6413-B\nPatient class: Inpatient Service: Internal Medicine\n\nTransfer In at 2/27/2020 0551\n\nUnit: HPS Room: HPS Bed: HPS-11\nPatient class: Inpatient Service: Internal Medicine\n\nSurgery at 2/27/2020 0725\n\nUnit: SFO-MAIN-OR Room: MOR 5 - SFO KPHC USE ONLY\nPatient class: Surgery During Current Service: Cardiology\nHospital Contact\n\nTransfer Out at 2/27/2020 1011\n\nUnit: HPS Room: HPS Bed: HPS-11\nPatient class: Inpatient Service: Internal Medicine\n\nTransfer In at 2/27/2020 1011\n\nUnit: 5TH FLR CENTER NSG UNIT TELE Room: 5351 Bed: 5351-A\nPatient class: Inpatient Service: Internal Medicine\n\nTransfer Out at 2/27/2020 1427"
+    },
+    {
+      "chunk_id": "doc001_p004_c002",
+      "document_id": "doc001",
+      "file_name": "02-23-2020 - ED to Hosp-Admission (Discharged).PDF.pdf",
+      "page_number": 4,
+      "chunk_index": 1,
+      "text": "Unit: 5TH FLR CENTER NSG UNIT TELE Room: 5351 Bed: 5351-A\nPatient class: Inpatient Service: Internal Medicine\n\nTransfer In at 2/27/2020 1427\n\nUnit: 5TH FLR CENTER NSG UNIT TELE = Room: 5323 Bed: 5323-A\nPatient class: Inpatient Service: Internal Medicine\n\nDischarge at 2/28/2020 1230\n\nUnit: 5TH FLR CENTER NSG UNIT TELE = Room: 5323 Bed: 5323-A\nPatient class: Inpatient Service: Internal Medicine\nED Notes\n\nED Progress by Reeves, Jabari Cecil (M.D.) at 2/23/2020 2143\n\nVersion 3 of 3\n\nAuthor: Reeves, Jabari Cecil (M.D.) Service: — Author Type: Physician\nFiled: 2/24/2020 12:33 AM Date of Service: 2/23/2020 9:43 PM Creation Time: 2/23/2020 9:43 PM\nStatus: Addendum Editor: Reeves, Jabari Cecil (M.D.) (Physician)"
+    },
+    {
+      "chunk_id": "doc001_p004_c003",
+      "document_id": "doc001",
+      "file_name": "02-23-2020 - ED to Hosp-Admission (Discharged).PDF.pdf",
+      "page_number": 4,
+      "chunk_index": 2,
+      "text": "CC: RASH (to entire body itchy including palms, some swelling to chin and cheeks; denies sob; had an ASD repair\n2/12; has had itching and burning to palms since 2/14; taking claritin and benadryl without relief; denies cp; a/w body\naches and chills, joint pains, has not checked his temp at home)\n\nED Note\n\nseen by Dr. Jabari Reeves\n\nPCP: ERIKA JOY RAMOS FLORES MD\nFirst Encounter 2140\n\nOld chart reviewed\n\nHPI: William J Dannemann is a 28 Y male that presents s/p ASD repair 2/12/20 with c/o R palmar itchy lesion since\n2/14/20 and now today with hives all over body x 6 hours. No new food or detergents. +joint aches. No chest pain. No\nsob, no abd pain. No throat pain but patient does note some lip swelling.\n\nGenerated on 8/27/24 4:29 PM"
+    },
+    {
+      "chunk_id": "doc001_p005_c001",
+      "document_id": "doc001",
+      "file_name": "02-23-2020 - ED to Hosp-Admission (Discharged).PDF.pdf",
+      "page_number": 5,
+      "chunk_index": 0,
+      "text": "#4 KAISER PERMANENTE.\n\nDannemann, William J\n\nMRN: 110016124151, DOB: 12/18/1991,\nLegal Sex: M\n\nSSN: xxx-xx-7829\n\nAdm: 2/23/2020, D/C: 2/28/2020\n\n02/23/2020 - ED to Hosp-Admission (Discharged) in 5TH FLR CENTER NSG UNIT TELE (continued)\n\nED Notes (continued)\n\nPMHx: Patient Active Problem List:\nALLERGIC RHINITIS\nATRIAL SEPTAL DEFECT\nCRYPTOGENIC STROKE\nELEVATED TROPONIN |\nHX OF AMPLATZER ATRIAL SEPTAL DEFECT CLOSURE\n\nPSHX: noncontributory\n\nFamily HX: noncontributory\n\nSocial Hx:\nSocial History\nSocioeconomic History\n¢ Marital status: Married\nSpouse name: Not on file\n¢ Number of children: Not on file\n¢« Years of education: Not on file\n\n¢ Highest education level: Not on file\nOccupational History\n\n¢ Occupation:\nTobacco Use\n\n¢ Smoking status:\n\nSystems Engineer\n\nNever Smoker\n\n¢ Smokeless tobacco: Never Used\nSubstance and Sexual Activity\n¢ Alcohol use: Yes\nAlcohol/week: 4.0 standard drinks\n\nTypes: 2 Glasses of wine, 3 Cans of\nbeer, 1 Standard drinks or\nequivalent per week"
+    },
+    {
+      "chunk_id": "doc001_p005_c002",
+      "document_id": "doc001",
+      "file_name": "02-23-2020 - ED to Hosp-Admission (Discharged).PDF.pdf",
+      "page_number": 5,
+      "chunk_index": 1,
+      "text": "¢ Drug use: No\n¢ Sexual activity: Yes\nPartners: Female\n\nBirth control/protection: oral contraceptives\n(estrogen/progesterone)\n\nE-Cigarette\nQuestions Responses\nE-Cigarette Use Never User\n\n, No tobacco, no drinking , no drugs\n\nROS:\nGenerated on 8/27/24 4:29 PM"
+    },
+    {
+      "chunk_id": "doc001_p006_c001",
+      "document_id": "doc001",
+      "file_name": "02-23-2020 - ED to Hosp-Admission (Discharged).PDF.pdf",
+      "page_number": 6,
+      "chunk_index": 0,
+      "text": "Dannemann, William J\nKAISER PERMANENTE. MRN: 110016124151, DOB: 12/18/1991,\nLegal Sex: M\nSSN: xxx-xx-7829\nAdm: 2/23/2020, D/C: 2/28/2020\n02/23/2020 - ED to Hosp-Admission (Discharged) in 5TH FLR CENTER NSG UNIT TELE (continued)\n\nED Notes (continued)\n\nConst: No fever, chills or sweats\n\nHEENT: no visual changes, no ear pain, no sore throat\nRespiratory: no cough, no shortness of breath\nCardiovascular: no dyspnea on exertion, no CP, no palpitation\nGastrointestinal: No N/V, no abdominal pain, no change in bowel habits, black or bloody stools\nGenitourinary: No Dysuria, no urgency, no frequency\n\nMS: No gross deformity. +joint aches\n\nNeurological: no dizziness, no syncope.\n\nPsychiatric: no depression, no anxiety\n\nEndocrine: no polyuria, no polydipsia, no hair loss\n\nAll other review of systems reviewed and are negative.\n\nmeds:\n\nPrior to Admission Medications\n\nOutpatient Home Medications Taking?\nAmoxicillin 500 mg Oral Cap\n\nSig: Take 4 capsules by mouth 30 minutes before procedure"
+    },
+    {
+      "chunk_id": "doc001_p006_c002",
+      "document_id": "doc001",
+      "file_name": "02-23-2020 - ED to Hosp-Admission (Discharged).PDF.pdf",
+      "page_number": 6,
+      "chunk_index": 1,
+      "text": "Aspirin (ECOTRIN) 325 mg Oral TBEC DR Tab\n\nSig: Take 1 tablet orally daily, only take 81 mg tablets while on plavix\n\nAtorvastatin (LIPITOR) 40 mg Oral Tab\n\nSig: Take 2 tablets Orally DAILY\n\nNote (2/12/2020): 2/12/2020\n\nAzelastine (ASTELIN) 137 mcg (0.1 %) NasI Aero Spray\n\nSig: Use 2 sprays in each nostril 2 times a day\n\nClopidogrel (PLAVIX) 75 mg Oral Tab\n\nSig: Take 1 tablet orally DAILY for six months minimum. Do not stop until cardiologist says ok.\nFluticasone (FLONASE ALLERGY RELIEF) 50 mcg/actuation NasI SpSn\n\nSig: USE 1 SPRAY IN EACH NOSTRIL 2 TIMES A DAY\n\nMontelukast (SINGULAIR) 10 mg Oral Tab\n\nSig: Take 1 tablet by mouth daily\n\nBack Office (Facility-Administered) Medications: None\n\nAllergies: Patient has no known allergies.\n\nBP 155/89 | Pulse 109 | Temp 99.6 °F (37.6 °C) | Resp 20 | Wt 108.4 kg (239 Ib) | SpO2 97% | BMI 30.69 kg/m?\nPhysical Exam:\n\nGeneral: Alert, well developed/nourished, well appearing, no acute distress\n\nEyes: PEERL, EOMI, lids/conjunctiva/cornea WNL."
+    },
+    {
+      "chunk_id": "doc001_p006_c003",
+      "document_id": "doc001",
+      "file_name": "02-23-2020 - ED to Hosp-Admission (Discharged).PDF.pdf",
+      "page_number": 6,
+      "chunk_index": 2,
+      "text": "ENMT: Hearing grossly intact, ears, nose normal, nasal mucosa nl, Mucous membranes moist. No exudate/erythema.\nNeck: supple, no masses, no cspine tenderness, FROM without pain.\n\nResp: RR normal, CTAB, BS equal B/L.\n\nChest: No tenderness to palpation\n\nCV: RRR, no MRG, No peripheral edema noted\n\nGl: Soft, nontender, no masses/tenderness, nl BS, no guarding/rebound. No organomegaly.\n\nBack: FROM, no midline/bony tenderness to palpation. No CVAT B/L\n\nMS: RUE nl LUE nl RLL nl LLL nl. No clubbing/cyanosis/edema noted. Distal pulses full/symmetric.\n\nNeuro: CN 2-12 intact, sensation nl, motor nl, No pronator drift. No nystagmus\n\nSkin: warm, dry, blanching erythematous macular rash over entire body\n\nPsych: AxO x3, judgment/insight nl, affect/mood nl. No SI/HI.\n\nData Reviewed:\n\nGenerated on 8/27/24 4:29 PM"
+    },
+    {
+      "chunk_id": "doc001_p007_c001",
+      "document_id": "doc001",
+      "file_name": "02-23-2020 - ED to Hosp-Admission (Discharged).PDF.pdf",
+      "page_number": 7,
+      "chunk_index": 0,
+      "text": "Dannemann, William J\n\nMRN: 110016124151, DOB: 12/18/1991,\nLegal Sex: M\n\nSSN: xxx-xx-7829\n\nAdm: 2/23/2020, D/C: 2/28/2020\n\n02/23/2020 - ED to Hosp-Admission (Discharged) in 5TH FLR CENTER NSG UNIT TELE (continued)\n\nED Notes (continued)\n\nCXR;\n\n&% KAISER PERMANENTE.\n\nevice. Chest CT could further assess suspected aortic arch location.\n\ncove. device as described above, consistent with embolization of the\nd\n\nEKG:Sr@87, no st/t changes\n\nLabs:\n\nAdmission on 02/23/2020\n\nComponent Date Value\n* Sodium 02/23/2020 140\n* Potassium 02/23/2020 3.8\n* Chloride 02/23/2020 104\n* CO2 02/23/2020 26\n\n* Anion gap, ser/plas 02/23/2020 10\n\n* BUN 02/23/2020 12\n* GLUCOSE, RANDOM 02/23/2020 97\n\n* Creatinine 02/23/2020 0.94\n* Glomerular filtration ra* 02/23/2020 >60\n* GLOMERULAR FILTRATION 02/23/2020 >60\n\nRA*\n\n* Comment, glomerular filt* 02/23/2020 SEE NOTE\n* AST 02/23/2020 21\n\n°* ALT 02/23/2020 27\n\n* Bilirubin, total 02/23/2020 0.6\n* ALKALINE PHOSPHATASE 02/23/2020 65"
+    },
+    {
+      "chunk_id": "doc001_p007_c002",
+      "document_id": "doc001",
+      "file_name": "02-23-2020 - ED to Hosp-Admission (Discharged).PDF.pdf",
+      "page_number": 7,
+      "chunk_index": 1,
+      "text": "* Lipase 02/23/2020 16\n* Calcium 02/23/2020 9.5\n* MAGNESIUM 02/23/2020 2.0\n* Phosphorus 02/23/2020 3.7\n* Lactate, ser/plas 02/23/2020 1.1\n° PT 02/23/2020 13.0\n* PT INR 02/23/2020 1.0\n* Troponin | 02/23/2020 0.05*\n* ESR 02/23/2020 12\n* WBC COUNT 02/23/2020 7.5\n* Red blood cells count 02/23/2020 4.63\n* Hgb 02/23/2020 14.1\n* Hematocrit 02/23/2020 40.9\n> MCV 02/23/2020 88\n* RDW, RBC 02/23/2020 11.8*\n* Platelets count 02/23/2020 185\n* RBC's, nucleated 02/23/2020 0\n\n* Differential panel 02/23/2020 AUTO DIF\n* Neutrophils %, automated” 02/23/2020 73\n\n* Lymphocytes %, automated* 02/23/2020 19\n\n* Monos %, auto 02/23/2020 7\n\n* Eosinophils %, automated* 02/23/2020 1\n\nGenerated on 8/27/24 4:29 PM"
+    },
+    {
+      "chunk_id": "doc001_p008_c001",
+      "document_id": "doc001",
+      "file_name": "02-23-2020 - ED to Hosp-Admission (Discharged).PDF.pdf",
+      "page_number": 8,
+      "chunk_index": 0,
+      "text": "Dannemann, William J\nKAISER PERMANENTE. MRN: 110016124151, DOB: 12/18/1991,\nLegal Sex: M\nSSN: xxx-xx-7829\nAdm: 2/23/2020, D/C: 2/28/2020\n\n02/23/2020 - ED to Hosp-Admission (Discharged) in 5TH FLR CENTER NSG UNIT TELE (continued)\n\nED Notes (continued)\n\n* Basophils %, automated c* 02/23/2020 0\n\n* Neutrophils auto count 02/23/2020 5.5\n\n* Draw and hold SST 02/23/2020 COMPLETE\n* Draw and hold blood cult* 02/23/2020 COMPLETE\n* EKG Impression 02/23/2020\n\nValue:Sinus rhythm\nNonspecific intraventricular conduction delay\nST elev, probable normal early repol pattern\n\n* Cardiac rate 02/23/2020 87\n* PR interval 02/23/2020 169\n* QRS interval 02/23/2020 117\n* QT interval 02/23/2020 385\n* QT corrected 02/23/2020 463\n* Frontal Axis: P 02/23/2020 40\n* Frontal Axis: Mean QRS 02/23/2020 17\n* Frontal Axis:T 02/23/2020 27\nCT chest;\n\nEmbolization of the Amplatzer device seen at the level of the distal aortic\narch and proximal descending thoracic aorta. No periaortic hematoma or\nactive extravasation."
+    },
+    {
+      "chunk_id": "doc001_p008_c002",
+      "document_id": "doc001",
+      "file_name": "02-23-2020 - ED to Hosp-Admission (Discharged).PDF.pdf",
+      "page_number": 8,
+      "chunk_index": 1,
+      "text": "Filling defect within the right lower lobe segmental pulmonary artery\nconcerning for pulmonary embolus (axial image 74-87 and coronal image\n84-86). Contrast bolus is slightly below optimized timing. No saddle\nembolus. Consider dedicated PE protocol to evaluate for additional\npulmonary emboli.\n\nA/P:hives, embolized Amplatz device, elevated troponin, pulmonary embolus\n\nPatient hydrated with 1L NS IV bolus and given benadryl 25mg IV, solumedrol 125mg IV, and pepcid 40mg po. Patient\nwith embolized amplatz device seen on cxr initially. Ct confirmed. Discussed case with Dr. Vafaei, cards. Patient to be\nadmitted to HBS for IR retrieval of device in AM. Stable. Elevated trop will be trended. Patient started on heparin gtt for\nPE after discussion with cards.\n\nCondition at discharge: stable\n\nJABARI CECIL REEVES MD\n\nElectronically signed by Reeves, Jabari Cecil (M.D.) at 2/24/2020 12:33 AM\n\nVersion 2 of 3"
+    },
+    {
+      "chunk_id": "doc001_p008_c003",
+      "document_id": "doc001",
+      "file_name": "02-23-2020 - ED to Hosp-Admission (Discharged).PDF.pdf",
+      "page_number": 8,
+      "chunk_index": 2,
+      "text": "Author: Reeves, Jabari Cecil (M.D.) Service: — Author Type: Physician\nFiled: 2/24/2020 12:08 AM Date of Service: 2/23/2020 9:43 PM Creation Time: 2/23/2020 9:43 PM\nStatus: Addendum Editor: Reeves, Jabari Cecil (M.D.) (Physician)\n\nCC: RASH (to entire body itchy including palms, some swelling to chin and cheeks; denies sob; had an ASD repair\n2/12; has had itching and burning to palms since 2/14; taking claritin and benadryl! without relief; denies cp; a/w body\naches and chills, joint pains, has not checked his temp at home)\n\nGenerated on 8/27/24 4:29 PM"
+    },
+    {
+      "chunk_id": "doc001_p009_c001",
+      "document_id": "doc001",
+      "file_name": "02-23-2020 - ED to Hosp-Admission (Discharged).PDF.pdf",
+      "page_number": 9,
+      "chunk_index": 0,
+      "text": "Dannemann, William J\nKAISER PERMANENTE. MRN: 110016124151, DOB: 12/18/1991,\nLegal Sex: M\nSSN: xxx-xx-7829\nAdm: 2/23/2020, D/C: 2/28/2020\n02/23/2020 - ED to Hosp-Admission (Discharged) in 5TH FLR CENTER NSG UNIT TELE (continued)\n\nED Notes (continued)\n\nED Note\n\nseen by Dr. Jabari Reeves\n\nPCP: ERIKA JOY RAMOS FLORES MD\nFirst Encounter 2140\n\nOld chart reviewed\n\nHPI: William J Dannemann is a 28 Y male that presents s/p ASD repair 2/12/20 with c/o R palmar itchy lesion since\n2/14/20 and now today with hives all over body x 6 hours. No new food or detergents. +joint aches. No chest pain. No\nsob, no abd pain. No throat pain but patient does note some lip swelling.\n\nPMHxX: Patient Active Problem List:\nALLERGIC RHINITIS\nATRIAL SEPTAL DEFECT\nCRYPTOGENIC STROKE\nELEVATED TROPONIN |\nHX OF AMPLATZER ATRIAL SEPTAL DEFECT CLOSURE\n\nPSHX: noncontributory\n\nFamily HX: noncontributory"
+    },
+    {
+      "chunk_id": "doc001_p009_c002",
+      "document_id": "doc001",
+      "file_name": "02-23-2020 - ED to Hosp-Admission (Discharged).PDF.pdf",
+      "page_number": 9,
+      "chunk_index": 1,
+      "text": "Social Hx:\nSocial History\nSocioeconomic History\n¢ Marital status: Married\nSpouse name: Not on file\n¢ Number of children: Not on file\n¢« Years of education: Not on file\n\n¢ Highest education level: Not on file\nOccupational History\n\n¢ Occupation: Systems Engineer\nTobacco Use\n¢ Smoking status: Never Smoker\n¢« Smokeless tobacco: Never Used\nSubstance and Sexual Activity\n¢ Alcohol use: Yes\nAlcohol/week: 4.0 standard drinks\nTypes: 2 Glasses of wine, 3 Cans of\n\nbeer, 1 Standard drinks or\nequivalent per week\n\n¢ Drug use: No\n¢ Sexual activity: Yes\nPartners: Female\n\nBirth control/protection: oral contraceptives\n\nGenerated on 8/27/24 4:29 PM"
+    },
+    {
+      "chunk_id": "doc001_p010_c001",
+      "document_id": "doc001",
+      "file_name": "02-23-2020 - ED to Hosp-Admission (Discharged).PDF.pdf",
+      "page_number": 10,
+      "chunk_index": 0,
+      "text": "Dannemann, William J\nf*) KAISER PERMANENTE. MRN: 110016124151, DOB: 12/18/1991,\nLegal Sex: M\nSSN: xxx-xx-7829\nAdm: 2/23/2020, D/C: 2/28/2020\n\n02/23/2020 - ED to Hosp-Admission (Discharged) in 5TH FLR CENTER NSG UNIT TELE (continued)\n\nED Notes (continued)\n\n(estrogen/progesterone)\n\nE-Cigarette\nQuestions Responses\nE-Cigarette Use Never User\n\n, No tobacco, no drinking , no drugs\n\nROS:\n\nConst: No fever, chills or sweats\n\nHEENT: no visual changes, no ear pain, no sore throat\nRespiratory: no cough, no shortness of breath\nCardiovascular: no dyspnea on exertion, no CP, no palpitation\nGastrointestinal: No N/V, no abdominal pain, no change in bowel habits, black or bloody stools\nGenitourinary: No Dysuria, no urgency, no frequency\n\nMS: No gross deformity. +joint aches\n\nNeurological: no dizziness, no syncope.\n\nPsychiatric: no depression, no anxiety\n\nEndocrine: no polyuria, no polydipsia, no hair loss\n\nAll other review of systems reviewed and are negative.\n\nmeds:\n\nPrior to Admission Medications"
+    },
+    {
+      "chunk_id": "doc001_p010_c002",
+      "document_id": "doc001",
+      "file_name": "02-23-2020 - ED to Hosp-Admission (Discharged).PDF.pdf",
+      "page_number": 10,
+      "chunk_index": 1,
+      "text": "Outpatient Home Medications Taking?\nAmoxicillin 500 mg Oral Cap\n\nSig: Take 4 capsules by mouth 30 minutes before procedure\n\nAspirin (ECOTRIN) 325 mg Oral TBEC DR Tab\n\nSig: Take 1 tablet orally daily, only take 81 mg tablets while on plavix\n\nAtorvastatin (LIPITOR) 40 mg Oral Tab\n\nSig: Take 2 tablets Orally DAILY\n\nNote (2/12/2020): 2/12/2020\n\nAzelastine (ASTELIN) 137 mcg (0.1 %) NasI Aero Spray\n\nSig: Use 2 sprays in each nostril 2 times a day\n\nClopidogrel (PLAVIX) 75 mg Oral Tab\n\nSig: Take 1 tablet orally DAILY for six months minimum. Do not stop until cardiologist says ok.\nFluticasone (FLONASE ALLERGY RELIEF) 50 mcg/actuation NasI SpSn\n\nSig: USE 1 SPRAY IN EACH NOSTRIL 2 TIMES A DAY\n\nMontelukast (SINGULAIR) 10 mg Oral Tab\n\nSig: Take 1 tablet by mouth daily\n\nBack Office (Facility-Administered) Medications: None\n\nAllergies: Patient has no known allergies.\n\nBP 155/89 | Pulse 109 | Temp 99.6 °F (37.6 °C) | Resp 20 | Wt 108.4 kg (239 Ib) | SpO2 97% | BMI 30.69 kg/m?\nPhysical Exam:"
+    },
+    {
+      "chunk_id": "doc001_p010_c003",
+      "document_id": "doc001",
+      "file_name": "02-23-2020 - ED to Hosp-Admission (Discharged).PDF.pdf",
+      "page_number": 10,
+      "chunk_index": 2,
+      "text": "General: Alert, well developed/nourished, well appearing, no acute distress\n\nEyes: PEERL, EOMI, lids/conjunctiva/cornea WNL.\n\nENMT: Hearing grossly intact, ears, nose normal, nasal mucosa nl, Mucous membranes moist. No exudate/erythema.\nNeck: supple, no masses, no cspine tenderness, FROM without pain.\n\nGenerated on 8/27/24 4:29 PM"
+    },
+    {
+      "chunk_id": "doc001_p011_c001",
+      "document_id": "doc001",
+      "file_name": "02-23-2020 - ED to Hosp-Admission (Discharged).PDF.pdf",
+      "page_number": 11,
+      "chunk_index": 0,
+      "text": "Dannemann, William J\n\nMRN: 110016124151, DOB: 12/18/1991,\nLegal Sex: M\n\nSSN: xxx-xx-7829\n\nAdm: 2/23/2020, D/C: 2/28/2020\n\n02/23/2020 - ED to Hosp-Admission (Discharged) in 5TH FLR CENTER NSG UNIT TELE (continued)\n\nED Notes (continued)\n\nResp: RR normal, CTAB, BS equal B/L.\n\nChest: No tenderness to palpation\n\nCV: RRR, no MRG, No peripheral edema noted\n\nGl: Soft, nontender, no masses/tenderness, nl BS, no guarding/rebound. No organomegaly.\n\nBack: FROM, no midline/bony tenderness to palpation. No CVAT B/L\n\nMS: RUE nl LUE nl RLL nl LLL nl. No clubbing/cyanosis/edema noted. Distal pulses full/symmetric.\nNeuro: CN 2-12 intact, sensation nl, motor nl, No pronator drift. No nystagmus\n\nSkin: warm, dry, blanching erythematous macular rash over entire body\n\n&% KAISER PERMANENTE.\n\nPsych: AxO x3, judgment/insight nl, affect/mood nl. No SI/HI.\n\nData Reviewed:\nCXR;\n\ncove. device as described above, consistent with embolization of the\nde\n\nEKG:Sr@87, no st/t changes"
+    },
+    {
+      "chunk_id": "doc001_p011_c002",
+      "document_id": "doc001",
+      "file_name": "02-23-2020 - ED to Hosp-Admission (Discharged).PDF.pdf",
+      "page_number": 11,
+      "chunk_index": 1,
+      "text": "vice. Chest CT could further assess suspected aortic arch location.\n\nLabs:\n\nAdmission on 02/23/2020\n\nComponent Date Value\n\n* Sodium 02/23/2020 140\n\n* Potassium 02/23/2020 3.8\n\n* Chloride 02/23/2020 104\n\n> CO2 02/23/2020 26\n\n* Anion gap, ser/plas 02/23/2020 10\n\n* BUN 02/23/2020 12\n\n* GLUCOSE, RANDOM 02/23/2020 97\n\n* Creatinine 02/23/2020 0.94\n\n* Glomerular filtration ra* 02/23/2020 >60\n\n* GLOMERULAR FILTRATION = 02/23/2020 >60\nRA*\n\n* Comment, glomerular filt* 02/23/2020 SEE NOTE\n\n* AST 02/23/2020 21\n\n°* ALT 02/23/2020 27\n\n* Bilirubin, total 02/23/2020 0.6\n\n* ALKALINE PHOSPHATASE 02/23/2020 65\n\n* Lipase 02/23/2020 16\n\n* Calcium 02/23/2020 9.5\n\n* MAGNESIUM 02/23/2020 2.0\n\n* Phosphorus 02/23/2020 3.7\n\n* Lactate, ser/plas 02/23/2020 1.1\n\n° PT 02/23/2020 13.0\n\n* PT INR 02/23/2020 1.0\n\n* Troponin | 02/23/2020 0.05*\n\n* ESR 02/23/2020 12\n\n* WBC COUNT 02/23/2020 7.5\n\n* Red blood cells count 02/23/2020 4.63\n\n* Hgb 02/23/2020 14.1\n\nGenerated on 8/27/24 4:29 PM"
+    },
+    {
+      "chunk_id": "doc001_p012_c001",
+      "document_id": "doc001",
+      "file_name": "02-23-2020 - ED to Hosp-Admission (Discharged).PDF.pdf",
+      "page_number": 12,
+      "chunk_index": 0,
+      "text": "& KAISER PERMANENTE.\n\nDannemann, William J\n\nMRN: 110016124151, DOB: 12/18/1991,\nLegal Sex: M\n\nSSN: xxx-xx-7829\n\nAdm: 2/23/2020, D/C: 2/28/2020\n\n02/23/2020 - ED to Hosp-Admission (Discharged) in 5TH FLR CENTER NSG UNIT TELE (continued)\n\nED Notes (continued)"
+    },
+    {
+      "chunk_id": "doc001_p012_c002",
+      "document_id": "doc001",
+      "file_name": "02-23-2020 - ED to Hosp-Admission (Discharged).PDF.pdf",
+      "page_number": 12,
+      "chunk_index": 1,
+      "text": "* Hematocrit 02/23/2020 40.9\n* MCV 02/23/2020 88\n* RDW, RBC 02/23/2020 11.8*\n* Platelets count 02/23/2020 185\n* RBC's, nucleated 02/23/2020 0\n* Differential panel 02/23/2020 AUTO DIF\n* Neutrophils %, automated* 02/23/2020 73\n* Lymphocytes %, automated* 02/23/2020 19\n* Monos %, auto 02/23/2020 7\n* Eosinophils %, automated* 02/23/2020 1\n* Basophils %, automated c* 02/23/2020 0\n* Neutrophils auto count 02/23/2020 5.5\n* Draw and hold SST 02/23/2020 COMPLETE\n* Draw and hold blood cult* 02/23/2020 COMPLETE\n* EKG Impression 02/23/2020\nValue:Sinus rhythm\nNonspecific intraventricular conduction delay\nST elev, probable normal early repol pattern\n* Cardiac rate 02/23/2020 87\n* PR interval 02/23/2020 169\n* QRS interval 02/23/2020 117\n* QT interval 02/23/2020 385\n* QT corrected 02/23/2020 463\n* Frontal Axis: P 02/23/2020 40\n* Frontal Axis: Mean QRS 02/23/2020 17\n* Frontal Axis:T 02/23/2020 27\n\nA/P:hives, embolized Amplatz device, elevated troponin"
+    },
+    {
+      "chunk_id": "doc001_p012_c003",
+      "document_id": "doc001",
+      "file_name": "02-23-2020 - ED to Hosp-Admission (Discharged).PDF.pdf",
+      "page_number": 12,
+      "chunk_index": 2,
+      "text": "Patient hydrated with 1L NS IV bolus and given benadryl 25mg IV, solumedrol 125mg IV, and pepcid 40mg po. Patient\nwith embolized amplatz device seen on cxr initially. Ct confirmed. Discussed case with Dr. Vafaei, cards. Patient to be\nadmitted to HBS for IR retrieval of device in AM. Stable. Elevated trop will be trended.\n\nCondition at discharge: stable\n\nJABARI CECIL REEVES MD\n\nElectronically signed by Reeves, Jabari Cecil (M.D.) at 2/24/2020 12:08 AM\n\nVersion 1 of 3\n\nAuthor: Reeves, Jabari Cecil (M.D.) Service: — Author Type: Physician\nFiled: 2/24/2020 12:08 AM Date of Service: 2/23/2020 9:43 PM Creation Time: 2/23/2020 9:43 PM\nStatus: Signed Editor: Reeves, Jabari Cecil (M.D.) (Physician)\n\nCC: RASH (to entire body itchy including palms, some swelling to chin and cheeks; denies sob; had an ASD repair\n2/12; has had itching and burning to palms since 2/14; taking claritin and benadryl! without relief; denies cp; a/w body\naches and chills, joint pains, has not checked his temp at home)"
+    },
+    {
+      "chunk_id": "doc001_p012_c004",
+      "document_id": "doc001",
+      "file_name": "02-23-2020 - ED to Hosp-Admission (Discharged).PDF.pdf",
+      "page_number": 12,
+      "chunk_index": 3,
+      "text": "Generated on 8/27/24 4:29 PM"
+    },
+    {
+      "chunk_id": "doc001_p013_c001",
+      "document_id": "doc001",
+      "file_name": "02-23-2020 - ED to Hosp-Admission (Discharged).PDF.pdf",
+      "page_number": 13,
+      "chunk_index": 0,
+      "text": "Dannemann, William J\nKAISER PERMANENTE. MRN: 110016124151, DOB: 12/18/1991,\nLegal Sex: M\nSSN: xxx-xx-7829\nAdm: 2/23/2020, D/C: 2/28/2020\n02/23/2020 - ED to Hosp-Admission (Discharged) in 5TH FLR CENTER NSG UNIT TELE (continued)\n\nED Notes (continued)\n\nED Note\n\nseen by Dr. Jabari Reeves\n\nPCP: ERIKA JOY RAMOS FLORES MD\nFirst Encounter 2140\n\nOld chart reviewed\n\nHPI: William J Dannemann is a 28 Y male that presents s/p ASD repair 2/12/20 with c/o R palmar itchy lesion since\n2/14/20 and now today with hives all over body x 6 hours. No new food or detergents. +joint aches. No chest pain. No\nsob, no abd pain. No throat pain but patient does note some lip swelling.\n\nPMHxX: Patient Active Problem List:\nALLERGIC RHINITIS\nATRIAL SEPTAL DEFECT\nCRYPTOGENIC STROKE\nELEVATED TROPONIN |\nHX OF AMPLATZER ATRIAL SEPTAL DEFECT CLOSURE\n\nPSHX: noncontributory\n\nFamily HX: noncontributory"
+    },
+    {
+      "chunk_id": "doc001_p013_c002",
+      "document_id": "doc001",
+      "file_name": "02-23-2020 - ED to Hosp-Admission (Discharged).PDF.pdf",
+      "page_number": 13,
+      "chunk_index": 1,
+      "text": "Social Hx:\nSocial History\nSocioeconomic History\n¢ Marital status: Married\nSpouse name: Not on file\n¢ Number of children: Not on file\n¢« Years of education: Not on file\n\n¢ Highest education level: Not on file\nOccupational History\n\n¢ Occupation: Systems Engineer\nTobacco Use\n¢ Smoking status: Never Smoker\n¢« Smokeless tobacco: Never Used\nSubstance and Sexual Activity\n¢ Alcohol use: Yes\nAlcohol/week: 4.0 standard drinks\nTypes: 2 Glasses of wine, 3 Cans of\n\nbeer, 1 Standard drinks or\nequivalent per week\n\n¢ Drug use: No\n¢ Sexual activity: Yes\nPartners: Female\n\nBirth control/protection: oral contraceptives\n(estrogen/progesterone)\n\nGenerated on 8/27/24 4:29 PM"
+    },
+    {
+      "chunk_id": "doc001_p014_c001",
+      "document_id": "doc001",
+      "file_name": "02-23-2020 - ED to Hosp-Admission (Discharged).PDF.pdf",
+      "page_number": 14,
+      "chunk_index": 0,
+      "text": "Dannemann, William J\nf*) KAISER PERMANENTE. MRN: 110016124151, DOB: 12/18/1991,\nLegal Sex: M\nSSN: xxx-xx-7829\nAdm: 2/23/2020, D/C: 2/28/2020\n\n02/23/2020 - ED to Hosp-Admission (Discharged) in 5TH FLR CENTER NSG UNIT TELE (continued)\n\nED Notes (continued)\n\nE-Cigarette\nQuestions Responses\nE-Cigarette Use Never User\n\n, No tobacco, no drinking , no drugs\n\nROS:\n\nConst: No fever, chills or sweats\n\nHEENT: no visual changes, no ear pain, no sore throat\nRespiratory: no cough, no shortness of breath\nCardiovascular: no dyspnea on exertion, no CP, no palpitation\nGastrointestinal: No N/V, no abdominal pain, no change in bowel habits, black or bloody stools\nGenitourinary: No Dysuria, no urgency, no frequency\n\nMS: No gross deformity. +joint aches\n\nNeurological: no dizziness, no syncope.\n\nPsychiatric: no depression, no anxiety\n\nEndocrine: no polyuria, no polydipsia, no hair loss\n\nAll other review of systems reviewed and are negative.\n\nmeds:\n\nPrior to Admission Medications"
+    },
+    {
+      "chunk_id": "doc001_p014_c002",
+      "document_id": "doc001",
+      "file_name": "02-23-2020 - ED to Hosp-Admission (Discharged).PDF.pdf",
+      "page_number": 14,
+      "chunk_index": 1,
+      "text": "Outpatient Home Medications Taking?\nAmoxicillin 500 mg Oral Cap\n\nSig: Take 4 capsules by mouth 30 minutes before procedure\n\nAspirin (ECOTRIN) 325 mg Oral TBEC DR Tab\n\nSig: Take 1 tablet orally daily, only take 81 mg tablets while on plavix\n\nAtorvastatin (LIPITOR) 40 mg Oral Tab\n\nSig: Take 2 tablets Orally DAILY\n\nNote (2/12/2020): 2/12/2020\n\nAzelastine (ASTELIN) 137 mcg (0.1 %) NasI Aero Spray\n\nSig: Use 2 sprays in each nostril 2 times a day\n\nClopidogrel (PLAVIX) 75 mg Oral Tab\n\nSig: Take 1 tablet orally DAILY for six months minimum. Do not stop until cardiologist says ok.\nFluticasone (FLONASE ALLERGY RELIEF) 50 mcg/actuation NasI SpSn\n\nSig: USE 1 SPRAY IN EACH NOSTRIL 2 TIMES A DAY\n\nMontelukast (SINGULAIR) 10 mg Oral Tab\n\nSig: Take 1 tablet by mouth daily\n\nBack Office (Facility-Administered) Medications: None\n\nAllergies: Patient has no known allergies.\n\nBP 155/89 | Pulse 109 | Temp 99.6 °F (37.6 °C) | Resp 20 | Wt 108.4 kg (239 Ib) | SpO2 97% | BMI 30.69 kg/m?\nPhysical Exam:"
+    },
+    {
+      "chunk_id": "doc001_p014_c003",
+      "document_id": "doc001",
+      "file_name": "02-23-2020 - ED to Hosp-Admission (Discharged).PDF.pdf",
+      "page_number": 14,
+      "chunk_index": 2,
+      "text": "General: Alert, well developed/nourished, well appearing, no acute distress\n\nEyes: PEERL, EOMI, lids/conjunctiva/cornea WNL.\n\nENMT: Hearing grossly intact, ears, nose normal, nasal mucosa nl, Mucous membranes moist. No exudate/erythema.\nNeck: supple, no masses, no cspine tenderness, FROM without pain.\n\nResp: RR normal, CTAB, BS equal B/L.\n\nGenerated on 8/27/24 4:29 PM"
+    },
+    {
+      "chunk_id": "doc001_p015_c001",
+      "document_id": "doc001",
+      "file_name": "02-23-2020 - ED to Hosp-Admission (Discharged).PDF.pdf",
+      "page_number": 15,
+      "chunk_index": 0,
+      "text": "Dannemann, William J\n\nMRN: 110016124151, DOB: 12/18/1991,\nLegal Sex: M\n\nSSN: xxx-xx-7829\n\nAdm: 2/23/2020, D/C: 2/28/2020\n\n02/23/2020 - ED to Hosp-Admission (Discharged) in 5TH FLR CENTER NSG UNIT TELE (continued)\n\nED Notes (continued)\n\n&% KAISER PERMANENTE.\n\nChest: No tenderness to palpation\n\nCV: RRR, no MRG, No peripheral edema noted\n\nGl: Soft, nontender, no masses/tenderness, nl BS, no guarding/rebound. No organomegaly.\n\nBack: FROM, no midline/bony tenderness to palpation. No CVAT B/L\n\nMS: RUE nl LUE nl RLL nl LLL nl. No clubbing/cyanosis/edema noted. Distal pulses full/symmetric.\nNeuro: CN 2-12 intact, sensation nl, motor nl, No pronator drift. No nystagmus\n\nSkin: warm, dry, blanching erythematous macular rash over entire body\n\nPsych: AxO x3, judgment/insight nl, affect/mood nl. No SI/HI.\n\nData Reviewed:\nCXR;\n\ncove. device as described above, consistent with embolization of the\nde\n\nEKG:Sr@87, no st/t changes\n\nvice. Chest CT could further assess suspected aortic arch location.\n\nLabs:"
+    },
+    {
+      "chunk_id": "doc001_p015_c002",
+      "document_id": "doc001",
+      "file_name": "02-23-2020 - ED to Hosp-Admission (Discharged).PDF.pdf",
+      "page_number": 15,
+      "chunk_index": 1,
+      "text": "Admission on 02/23/2020\n\nComponent Date Value\n\n* Sodium 02/23/2020 140\n\n* Potassium 02/23/2020 3.8\n\n* Chloride 02/23/2020 104\n\n* CO2 02/23/2020 26\n\n* Anion gap, ser/plas 02/23/2020 10\n\n> BUN 02/23/2020 12\n\n* GLUCOSE, RANDOM 02/23/2020 97\n\n* Creatinine 02/23/2020 0.94\n\n* Glomerular filtration ra* 02/23/2020 >60\n\n* GLOMERULAR FILTRATION = 02/23/2020 >60\nRA*\n\n* Comment, glomerular filt* 02/23/2020 SEE NOTE\n\n* AST 02/23/2020 21\n\n°* ALT 02/23/2020 27\n\n* Bilirubin, total 02/23/2020 0.6\n\n* ALKALINE PHOSPHATASE 02/23/2020 65\n\n* Lipase 02/23/2020 16\n\n* Calcium 02/23/2020 9.5\n\n* MAGNESIUM 02/23/2020 2.0\n\n* Phosphorus 02/23/2020 3.7\n\n* Lactate, ser/plas 02/23/2020 1.1\n\n° PT 02/23/2020 13.0\n\n* PT INR 02/23/2020 1.0\n\n* Troponin | 02/23/2020 0.05*\n\n* ESR 02/23/2020 12\n\n* WBC COUNT 02/23/2020 7.5\n\n* Red blood cells count 02/23/2020 4.63\n\n* Hgb 02/23/2020 14.1\n\n* Hematocrit 02/23/2020 40.9\n\nGenerated on 8/27/24 4:29 PM"
+    },
+    {
+      "chunk_id": "doc002_p001_c001",
+      "document_id": "doc002",
+      "file_name": "EMR Report.pdf",
+      "page_number": 1,
+      "chunk_index": 0,
+      "text": "Dannemann, William J\n\niy KAISER PERMANENTE.. MRN: 110016124151, DOB: 12/18/1991,\n\nLegal Sex: M\nSSN: xxx-xx-7829\nVisit date: 7/5/2019\n\n07/05/2019 - Patient Secure Message in INJURY CLINIC\nVisit Information\n\nProvider Information\n\nEncounter Provider\nMitre, John (M.D.)\n\nDepartment\nName Address Phone\nINJURY CLINIC 2238 GEARY BLVD 415-833-2200\nSan Francisco CA 94115-3416\nMessages\n\nYour Recent Minor Injury Center Visit\n\nFrom To Sent and Delivered\nJohn (M.D.) Mitre Dannemann, William J 7/5/2019 10:55 AM\nLast Read in kp.org\n\n7/16/2019 8:46 AM by Dannemann, William J\n\nHi Mr. Dannemann,\nIt was nice meeting you today in clinic.\n\nHope your pelvis will be feeling better soon. Be sure to rest and follow the aftercare\ninstructions.\n\n| hope you found your appointment with me in the Injury Office both educational and helpful. If\nthere are any questions or concerns which we did not cover during the visit, message me\nback and I'll get back to you as soon as possible."
+    },
+    {
+      "chunk_id": "doc002_p001_c002",
+      "document_id": "doc002",
+      "file_name": "EMR Report.pdf",
+      "page_number": 1,
+      "chunk_index": 1,
+      "text": "Our team in the Injury Office is committed to provide you prompt, courteous service, in addition\nto great care.\n\nYou may receive a Member Survey asking you to rate your overall experience. We appreciate\nyour honest feedback.\n\nTo our team \"good\" is only average and not to the standard we are striving toward. We aim to\nprovide \"excellent\" patient care and service. If you feel your experience was anything less,\nplease let us know how we may improve. Your opinion is important and vital to us, as it gives\nus feedback on how we may continue to render the best care we can.\n\nIt was a pleasure taking care of you and if you need any additional assistance, let me know.\n\nRegards,\nGenerated on 8/27/24 4:29 PM"
+    },
+    {
+      "chunk_id": "doc002_p002_c001",
+      "document_id": "doc002",
+      "file_name": "EMR Report.pdf",
+      "page_number": 2,
+      "chunk_index": 0,
+      "text": "Dannemann, William J\n&\"% KAISER PERMANENTE. MRN: 110016124151, DOB: 12/18/1991,\n\nLegal Sex: M\nSSN: xxx-xx-7829\nVisit date: 7/5/2019\n\n07/05/2019 - Patient Secure Message in INJURY CLINIC (continued)\n\nMessages (continued)\n\nDr. Mitre\n\nGenerated on 8/27/24 4:29 PM"
+    },
+    {
+      "chunk_id": "doc002_p003_c001",
+      "document_id": "doc002",
+      "file_name": "EMR Report.pdf",
+      "page_number": 3,
+      "chunk_index": 0,
+      "text": "Dannemann, William J\n\nAh, KAISER PERMANENTE... MRN: 110016124151, DOB: 12/18/1991,\n\nLegal Sex: M\nSSN: xxx-xx-7829\nVisit date: 7/5/2019\n\n07/05/2019 - Office Visit in INJURY CLINIC\nVisit Information\n\nProvider Information\n\nEncounter Provider Authorizing Provider\n\nMitre, John (M.D.) Mitre, John (M.D.)\nDepartment\n\nName Address Phone\n\nINJURY CLINIC 2238 GEARY BLVD 415-833-2200\n\nSan Francisco CA 94115-3416\n\nLevel of Service\n\nLevel of Service\nOUTPT NEW LEVEL 1\n\nReason for Visit\n\nChief Complaint\ne HIP INJURY (right hip injury DOI:06/22/2019)\n\nVisit Diagnosis\ne RIGHT PUBIS SUPERIOR RAMUS FX, ROUT SUBSEQ (primary) [S32.511D]\n\nRevision History\n\nAction Name Code User Date/Time\nDiagnosis #1\nRemove RIGHT PUBIS OTHER TYPE FX, ROUT SUBSEQ $32.591D Mitre, John (M.D.) 07/05/2019 1053\n(primary)\nAdd RIGHT PUBIS OTHER TYPE FX, ROUT SUBSEQ S$32.591D Mitre, John (M.D.) 07/05/2019 1053\n(primary)\nDiagnosis #2\nAdd RIGHT PUBIS SUPERIOR RAMUS FX, ROUT $32.511D Mitre, John (M.D.) 07/05/2019 1054\nSUBSEQ (primary)"
+    },
+    {
+      "chunk_id": "doc002_p003_c002",
+      "document_id": "doc002",
+      "file_name": "EMR Report.pdf",
+      "page_number": 3,
+      "chunk_index": 1,
+      "text": "All Charges for This Encounter\nCode Description Service Date Service Provider Modifiers Qty\n99201 OFFICE OUTPATIENT NEW 10 MINUTES 7/5/2019 Mitre, John (M.D.) 1\nClinical Notes\nUnknown\nProgress Notes by Mitre, John (M.D.) at 7/5/2019 1002\n\nVersion 1 of 1\n\nAuthor: Mitre, John (M.D.) Service: — Author Type: Physician\nFiled: 7/5/2019 10:55 AM Encounter Date: 7/5/2019 Creation Time: 7/5/2019 10:02 AM\nStatus: Signed Editor: Mitre, John (M.D.) (Physician)\n\nPelvic Fx\n\nActivity modification\n\nUse nsaids prn\n\nMay ride for 10 minutes at low cadence for a week. If okay may increase time to 20 minutes.\nIf asymptomatic in three wks, may resume riding ad lib.\n\nGenerated on 8/27/24 4:29 PM"
+    },
+    {
+      "chunk_id": "doc002_p004_c001",
+      "document_id": "doc002",
+      "file_name": "EMR Report.pdf",
+      "page_number": 4,
+      "chunk_index": 0,
+      "text": "Dannemann, William J\n\niy KAISER PERMANENTE... MRN: 110016124151, DOB: 12/18/1991,\n\nLegal Sex: M\nSSN: xxx-xx-7829\nVisit date: 7/5/2019\n\n07/05/2019 - Office Visit in INJURY CLINIC (continued)\n\nClinical Notes (continued)\n\nWilliam J Dannemann is a 27 Y male who presents w Right sided pelvic pain. The patient states that he fell\nduring a road race on 6/22.The patient has been able to ambulate since the injury but does feel discomfort in\nhis anterior pelvis. No bowel or bladder complaints. No residual ecchymoses in or around the pelvic region.\n\nPatient Active Problem List:\nALLERGIC RHINITIS\nATRIAL SEPTAL DEFECT"
+    },
+    {
+      "chunk_id": "doc002_p004_c002",
+      "document_id": "doc002",
+      "file_name": "EMR Report.pdf",
+      "page_number": 4,
+      "chunk_index": 1,
+      "text": "| have confirmed the presence of the above clinical diagnoses, which were considered in the current and\nongoing care of the patient. At the time of this visit, the medical record indicates, and/or the patient states,\nthat there are no changes in these conditions unless otherwise noted. As treatment warrants, the patient has\nbeen advised to follow up with his PCP or appropriate specialist.\nCurrent Outpatient Medications\nMedication Sig\n¢ Azelastine (ASTELIN) 137 Use 2 sprays in each nostril 2 times a day\nmcg (0.1 %) Nasl Aero Spray\n¢ Fluticasone (FLONASE USE 1 SPRAY IN EACH NOSTRIL 2 TIMES A\nALLERGY RELIEF) 50 DAY\nmcg/actuation Nasl SpSn\n¢ Montelukast (SINGULAIR) Take 1 tablet by mouth daily\n10 mg Oral Tab\n\nNo current facility-administered medications for this visit.\n\nNAD\nPelvis: full flexion of both legs.\nHips: FROM\n\nAble to walk in squat position\n\nXR reviewed.\n\nElectronically signed by Mitre, John (M.D.) at 7/5/2019 10:55 AM"
+    },
+    {
+      "chunk_id": "doc002_p004_c003",
+      "document_id": "doc002",
+      "file_name": "EMR Report.pdf",
+      "page_number": 4,
+      "chunk_index": 2,
+      "text": "After Visit Summary\nWarning! This summary shows information as of your visit. It might not contain the most up-to-date information in your chart.\n\nAfter Visit Summary (below)\n\nGenerated on 8/27/24 4:29 PM"
+    },
+    {
+      "chunk_id": "doc002_p005_c001",
+      "document_id": "doc002",
+      "file_name": "EMR Report.pdf",
+      "page_number": 5,
+      "chunk_index": 0,
+      "text": "ahs Dannemann, William J\nKAISER PERMANENTE... MRN: 110016124151, DOB: 12/18/1991,\n\nLegal Sex: M\nSSN: xXxx-xx-7829\nVisit date: 7/5/2019\n\n07/05/2019 - Office Visit in INJURY CLINIC (continued)\n\nAfter Visit Summary (continued)\n\nAFTER VISIT SUMMARY #4 KAISER PERMANENTE.\nWilliam J. Dannemann ean tiontetcdsst Am eT VSO AM OQ BURY CHING 615-833-2200\nToday's Visit\n\nYou saw JOHN MITRE MD on Friday July 5, 2019. The following issue was addressed: PUBIS (PELVIS) FRACTURE.\nWhat's Next\n\nOffice Vist\n\nWith: JOHN MITRE MD\n\nDate: Friday July 19, 2019\n\nTine 10:20 AM\n\nWhere to go INJURY CENTER\nAddress 1600 OWENS STREET\nSAN FRANCISCO CA 94158-2261\nPhone 415-833-2291\n\nStay Connected!\n\nDownload KP apps for your smartphone free from your favorite App Store."
+    },
+    {
+      "chunk_id": "doc002_p005_c002",
+      "document_id": "doc002",
+      "file_name": "EMR Report.pdf",
+      "page_number": 5,
+      "chunk_index": 1,
+      "text": "My Doctor Online - get advice, preventive services alerts, email your doctor, video visits, schedule appointments\nKP - refill prescriptions, check tab results, and review hospital or Emergency Department discharge instructions\nMy KP Meds - schedule reminders to take your medications or order refills\n\nToday's Medication Changes asorrsveurs 1.55 AM\n\nNo changes were made to your prescriptions during this visit.\n\nMedications Marked As Taking\n\nNo Medications Marked As Taking\n\nExercise Minutes Per Week\n200\n\nExercise is important!"
+    },
+    {
+      "chunk_id": "doc002_p005_c003",
+      "document_id": "doc002",
+      "file_name": "EMR Report.pdf",
+      "page_number": 5,
+      "chunk_index": 2,
+      "text": "Congratulations on getting at least 150 minutes of physical activity a week! Regular physical activity along with\nmaintaining a healthy weight, can help you feel better and have more energy. If you want to include healthier eating, start\nby adding more fruits and vegetables to your diet, eating smaller portions or drinking fewer sodas and sweetened\nbeverages. To get support for fitness, weight, or stress management, call 1-866-251-4514 to schedule a telephone\nappointment with a personal wellness coach.\n\nWilliam J. Dannemann (MRN: 110016124151) © Printed at 7/5/19 10:55 AM Page lof 1 Epic\nThis is confidential information. Please don't throw away in a Kaiser Permanente trash can\n\nGenerated on 8/27/24 4:29 PM"
+    },
+    {
+      "chunk_id": "doc002_p006_c001",
+      "document_id": "doc002",
+      "file_name": "EMR Report.pdf",
+      "page_number": 6,
+      "chunk_index": 0,
+      "text": "Dannemann, William J\n\nfy KAISER PERMANENTE... MRN: 110016124151, DOB: 12/18/1991,\n\nLegal Sex: M\nSSN: xxx-xx-7829\nVisit date: 12/2/2019\n\n12/02/2019 - AACC Member Call History in AHCARE\n\nVisit Information\n\nDepartment\nName Address Phone\nAHCARE 3200 ARDEN WAY 866-454-8855\n\nSacramento CA 95825-2015\n\nClinical Notes\nUnknown\nAACC Call History by CALL CENTER ADVICE NURSE at 12/2/2019 1515\n\nVersion 1 of 1\n\nAuthor: CALL CENTER ADVICE Service: — Author Type: REGISTERED NURSE\nNURSE\n\nFiled: 12/2/2019 3:16 PM Encounter Date: 12/2/2019 Creation Time: 12/2/2019 3:16 PM\nStatus: Signed Editor: CALL CENTER ADVICE NURSE (REGISTERED NURSE)\n\nAACG MEMBER CALL HISTORY\n\nMemberID: 110016124151\n\nDate & Time: 12/02/2019 02:59 PM\nLocation: Sacramento AACC\nProcessed by: Modglin, Colleen (RN)\n\nCall Outcomes:\n\n1. Referred to closest KP ED\n2. Consult\n3. Quaas, Joshua - MD Consulted\n\nCall Notes:"
+    },
+    {
+      "chunk_id": "doc002_p006_c002",
+      "document_id": "doc002",
+      "file_name": "EMR Report.pdf",
+      "page_number": 6,
+      "chunk_index": 1,
+      "text": "KEY SYMPTOMS: yesterday pt had episode of facial numbness/right arm went numb/arm was flinging itself up to the side, up\nto shoulder height, about 4-5 times in a row/ right leg felt numb and not able to bear weight for a minute/felt like his whole leg fell\nasleep/ pt not able to articulate what was going on/not able to move face muscles to talk/ numbness on both sides of face with\ntingling/ unsteady with walking today/\n\nONSET/DURATION/INTENSITY: happened at 8:30pm last night/lasted a minute/ then after wards he was in a daze/\n\nPERTINENT HISTORY: atrial septal defect/pt was driving continuously for 9 hours when this happened/\n\nTRIED (BETTER/WORSE): seen by clinic at work/ and they told him to call us\n\nProtocols:\n\nNo dispositions selected for Protocol 1.\n\nGenerated on 8/27/24 4:29 PM"
+    },
+    {
+      "chunk_id": "doc002_p007_c001",
+      "document_id": "doc002",
+      "file_name": "EMR Report.pdf",
+      "page_number": 7,
+      "chunk_index": 0,
+      "text": "Dannemann, William J\nfits KAISER PERMANENTE.. MRN: 110016124151, DOB: 12/18/1991,\n\nLegal Sex: M\nSSN: xxx-xx-7829\nVisit date: 12/2/2019\n\n12/02/2019 - AACC Member Call History in AHCARE (continued)\nClinical Notes (continued)\n\nEmergent Outcome: Referred to closest KP ED San Francisco Medical Center\nEmergent Outcome Reason: MD Recommendation\n\nPerson Consulted: Quaas, Joshua - MD\n\nConsult Reason: ED Referral per Protocol\n\nSpecial Instruction: EMERGENT CONDITION - Consult per workflow\n\nRecommendations:\n\nED/L&D\n\nElectronically signed by CALL CENTER ADVICE NURSE at 12/2/2019 3:16 PM\n\nGenerated on 8/27/24 4:29 PM"
+    },
+    {
+      "chunk_id": "doc002_p008_c001",
+      "document_id": "doc002",
+      "file_name": "EMR Report.pdf",
+      "page_number": 8,
+      "chunk_index": 0,
+      "text": "Dannemann, William J\n\niy KAISER PERMANENTE... MRN: 110016124151, DOB: 12/18/1991,\n\nLegal Sex: M\nSSN: xxx-xx-7829\nVisit date: 12/4/2019\n\n12/04/2019 - Procedure Only in DEPARTMENT OF CARDIOLOGY-EKG\n\nVisit Information\n\nDepartment\nName Address Phone\nDEPARTMENT OF CARDIOLOGY- 2238 GEARY BLVD 415-833-2615\nEKG San Francisco CA 94115-3416\n\nClinical Notes\nUnknown\nStaff Note by Apellanes, Solinda P (Ekg Tech) at 12/4/2019 1522\n\nVersion 1 of 1\n\nAuthor: Apellanes, Solinda P (Ekg Tech) Service: — Author Type: TECH, EKG\nFiled: 12/4/2019 3:25 PM Encounter Date: 12/4/2019 Creation Time: 12/4/2019 3:22 PM\nStatus: Signed Editor: Apellanes, Solinda P (Ekg Tech) (TECH, EKG)\n\nRequesting provider: Dr Siyuan Liu\n\nReason for request: 27 m with PFO, admitted with stroke , Please place ziopatch and have another\nsequential one for 28 day monitoring.\n\nN023777817.\n\nElectronically signed by Apellanes, Solinda P (Ekg Tech) at 12/4/2019 3:25 PM\n\nGenerated on 8/27/24 4:29 PM"
+    },
+    {
+      "chunk_id": "doc002_p009_c001",
+      "document_id": "doc002",
+      "file_name": "EMR Report.pdf",
+      "page_number": 9,
+      "chunk_index": 0,
+      "text": "Dannemann, William J\n\nity KAISER PERMANENTE. MRN: 110016124151, DOB: 12/18/1991,\n\nLegal Sex: M\nSSN: xxx-xx-7829\nVisit date: 12/4/2019\n\n12/04/2019 - Clinical Documentation in DEPARTMENT OF CARDIOLOGY\nVisit Information\n\nProvider Information\n\nEncounter Provider\nMorrissey, Mykl (N.P.)\n\nDepartment\nName Address Phone\nDEPARTMENT OF CARDIOLOGY 2238 GEARY BLVD 415-833-2616\n\nSan Francisco CA 94115-3416\n\nClinical Notes\n\nUnknown\nProgress Notes by Morrissey, Mykl (N.P.) at 12/4/2019 1801\n\nVersion 1 of 1\n\nAuthor: Morrissey, Mykl (N.P.) Service: — Author Type: NURSE PRACTITIONER\n(N.P.)\n\nFiled: 2/10/2020 3:22 PM Encounter Date: 12/4/2019 Creation Time: 12/4/2019 6:01 PM\n\nStatus: Signed Editor: Morrissey, Mykl (N.P.) (NURSE PRACTITIONER (N.P.))\n\nOpened in error.\n\nElectronically signed by Morrissey, Mykl (N.P.) at 2/10/2020 3:22 PM\n\nGenerated on 8/27/24 4:29 PM"
+    },
+    {
+      "chunk_id": "doc002_p010_c001",
+      "document_id": "doc002",
+      "file_name": "EMR Report.pdf",
+      "page_number": 10,
+      "chunk_index": 0,
+      "text": "Dannemann, William J\n#4 KAISER PERMANENTE. MRN: 110016124151, DOB: 12/18/1991,\nLegal Sex: M\nSSN: xxx-xx-7829\nVisit date: 12/4/2019\n\n12/04/2019 - Telephone Appointment Visit in DEPARTMENT OF CARDIOLOGY\nVisit Information\nProvider Information\n\nEncounter Provider\nLeung, Gordon Kent (M.D.)\n\nDepartment\nName Address Phone\nDEPARTMENT OF CARDIOLOGY 2238 GEARY BLVD 415-833-2616\n\nSan Francisco CA 94115-3416\n\nReason for Visit\n\nChief Complaint\ne RESULTS REVIEW\n\nClinical Notes\n\nUnknown\nProgress Notes by Leung, Gordon Kent (M.D.) at 12/4/2019 1804\n\nVersion 1 of 1\n\nAuthor: Leung, Gordon Kent (M.D.) Service: — Author Type: Physician\nFiled: 12/4/2019 6:48 PM Encounter Date: 12/4/2019 Creation Time: 12/4/2019 6:04 PM\nStatus: Signed Editor: Leung, Gordon Kent (M.D.) (Physician)\n\nCardiology Echo Lab Attending\nPt seen and imaging reviewed."
+    },
+    {
+      "chunk_id": "doc002_p010_c002",
+      "document_id": "doc002",
+      "file_name": "EMR Report.pdf",
+      "page_number": 10,
+      "chunk_index": 1,
+      "text": "27 y/o M (mechanical engineer who works at Lawerence Livermore Lab) admitted with CVA and workup\nnotable for negative LE ultrasound for DVT, negative carotid dopplers, negative carotid CTA, negative\nhypercoag w/u, and abni brain MRI notable for small lacunar infact of L posterior frontal lobe.\n\nTEE today notable for NL biventricular function, no thrombus, and 1.1 x 1.4 cm secundum atrial septal\ndefect.\n\nCase d/w Dr. Jacob Mishell and also reviewed with patient over the phone.\n\n1) agree with plan to r/o atrial fibrillation with 4 weeks of ZioPatch monitoring (14 day monitor x 2)\n\n2) flu TSH/T4 results\n\n3) continue statin and plavix for medical therapy\n\n4) if no evidence for atrial fibrillation on outpt screen, pt to be considered for percutaneous closure of atrial\nseptal defect for possible paradoxical emboli.\n\n| will submit econsult to structural heart team to arrange f/u after ZioPatch monitor performed.\n\nGORDON KENT LEUNG MD"
+    },
+    {
+      "chunk_id": "doc002_p010_c003",
+      "document_id": "doc002",
+      "file_name": "EMR Report.pdf",
+      "page_number": 10,
+      "chunk_index": 2,
+      "text": "Electronically signed by Leung, Gordon Kent (M.D.) at 12/4/2019 6:48 PM\n\nGenerated on 8/27/24 4:29 PM"
+    },
+    {
+      "chunk_id": "doc002_p011_c001",
+      "document_id": "doc002",
+      "file_name": "EMR Report.pdf",
+      "page_number": 11,
+      "chunk_index": 0,
+      "text": "Dannemann, William J\nfits KAISER PERMANENTE... MRN: 110016124151, DOB: 12/18/1991,\n\nLegal Sex: M\nSSN: xxx-xx-7829\nVisit date: 12/4/2019\n\n12/04/2019 - Telephone Appointment Visit in DEPARTMENT OF CARDIOLOGY (continued)\n\nClinical Notes (continued)\n\nAfter Visit Summary\nWarning! This summary shows information as of your visit. It might not contain the most up-to-date information in your chart.\n\nAfter Visit Summary (below)\n\nGenerated on 8/27/24 4:29 PM"
+    },
+    {
+      "chunk_id": "doc002_p012_c001",
+      "document_id": "doc002",
+      "file_name": "EMR Report.pdf",
+      "page_number": 12,
+      "chunk_index": 0,
+      "text": "Dannemann, William J\ni ” KAISER PERMANENTE. MRN: 110016124151, DOB: 12/18/1991,\n\nLegal Sex: M\nSSN: xXxx-xx-7829\nVisit date: 12/4/2019\n\n12/04/2019 - Telephone Appointment Visit in DEPARTMENT OF CARDIOLOGY (continued)\n\nAfter Visit Summary (continued)\n\nAFTER VISIT SUMMARY #4) KAISER PERMANENTE.\n\nWilliam J. Dannemann men iiecteicassi Prac Oe QD DEPARTMENT OF CARDIOLOGY 315-834-2616\n\nToday's Visit\n\nYou saw GORDON KENT LEUNG MD on Wednesday December 4, 2019.\n\nWhat's Next\n\nOR Ce Vise\n\nWith. ERIKA JOY RAMOS FLORES MD\n\nDate: Wednesday December 11, 2019\n\nTinie 9:20 AM\n\nWhere to go: ADULT AND FAMILY MEDICINE\nAddress 1600 OWENS STREET\n\nSAN FRANCISCO CA 94158-2261\n\nPhone 415-833-2200\n\nCardialogy Special Procedure\n\nDate: Thursday December 19, 2019\n\nTime. 9:30 AM\n\nWhere to go DEPARTMENT OF CARDIOLOGY-EKG\nAddress 2238 GEARY BLVD\n\nSAN FRANCISCO CA 94115-3416\n\nPhone 415-833-2200\n\nStay Connected!\n\nDownload KP apps for your smartphone free from your favorite App Store."
+    },
+    {
+      "chunk_id": "doc002_p012_c002",
+      "document_id": "doc002",
+      "file_name": "EMR Report.pdf",
+      "page_number": 12,
+      "chunk_index": 1,
+      "text": "My Doctor Online - get advice, preventive services alerts, email your doctor, video visits, schedule appointments\nKP - refill prescriptions, check lab results, and review hospital or Emergency Department discharge instructions\nMy KP Meds - schedule reminders to take your medications or order refills\n\nToday's Medication Changes asst Ge ember 4 2019 Gag eM\n\nNo changes were made to your prescriptions during this visit.\n\nMedications Marked As Taking\n\nNo Medications Marked As Taking\n\nWilliam J. Dannemann (MRN: 110016124151) © Printed at 12/4/19 6:48 PM Page lof 1 Epic\nThis is confidential information. Please don't throw away in a Kaiser Permanente trash can\n\nGenerated on 8/27/24 4:29 PM"
+    },
+    {
+      "chunk_id": "doc002_p013_c001",
+      "document_id": "doc002",
+      "file_name": "EMR Report.pdf",
+      "page_number": 13,
+      "chunk_index": 0,
+      "text": "Dannemann, William J\n\niy KAISER PERMANENTE... MRN: 110016124151, DOB: 12/18/1991,\n\nLegal Sex: M\nSSN: xxx-xx-7829\nVisit date: 12/13/2019\n\n12/13/2019 - Patient Secure Message in NEUROLOGY DEPARTMENT\nVisit Information\nProvider Information\n\nEncounter Provider\nMainardi Villarino, Laura (M.D.)\n\nDepartment\nName Address Phone\nNEUROLOGY DEPARTMENT 450 6TH AVENUE 415-833-4555\n\nSan Francisco CA 94118-3010\nMessages\n\nAVC\nFrom To Sent and Delivered\nLaura (M.D.) Mainardi Villarino Dannemann, William J 12/13/2019 10:06 AM\n\nLast Read in kp.org\n12/13/2019 10:07 AM by Dannemann, William J\n\nDr. Mainardi Villarino- Neurology Visit Follow Up\nDear Mr Dannemann,\n\nIt was a pleasure meeting you during your visit to our neurology department. We are dedicated\nto providing excellent care and accessibility for our members.\n\n| hope you are feeling more comfortable with your symptoms after our visit. The plan of care is\nthe following:\n\n1) Obtain EEG"
+    },
+    {
+      "chunk_id": "doc002_p013_c002",
+      "document_id": "doc002",
+      "file_name": "EMR Report.pdf",
+      "page_number": 13,
+      "chunk_index": 1,
+      "text": "2) Complete ziopatch to rule out arrhythmia as a cause of your possible TIA\n\n3) Continue dual antiplatelet therapy with plan to transition to aspirin 81mg after plavix\ndiscontinued in 30 days.\n\n4) Continue statin for goal LDL<80\n\n5) If ziopatch negative, and EEG unrevealing, agree with plan of PFO closure to reduce risk of\nstroke in the future.\n\n6) | will follow up with you once EEG is done\n\n7) please notify me if you have any recurrence of symptoms\n\nGuidelines to reduce risk of stroke:\n- goal blood pressure <140/80\n- goal HgBA1c < 7 (glucose control)\n- highest tolerable dose of statin for goal LDL <80\n- Alcohol intake: ? 2 drinks per day for men,\n- Exercise: > 30 mins per day of moderate-intensity physical exercise at least 3 times per week\n- Diet: consider the Mediterranean diet. Encourage extra-virgin olive oil, nuts, fresh fruit, fish.\nLimit salt intake\nGenerated on 8/27/24 4:29 PM"
+    },
+    {
+      "chunk_id": "doc002_p014_c001",
+      "document_id": "doc002",
+      "file_name": "EMR Report.pdf",
+      "page_number": 14,
+      "chunk_index": 0,
+      "text": "Dannemann, William J\n\nNC KAISER PERMANENTE. MRN: 110016124151, DOB: 12/18/1991,\nLegal Sex: M\nSSN: xxx-xx-7829\nVisit date: 12/13/2019\n\n12/13/2019 - Patient Secure Message in NEUROLOGY DEPARTMENT (continued)\n\nMessages (continued)\n\nto <2.4g/d.\nPlease don't hesitate to contact me with any additional questions or concerns.\n\nSincerely,\n\nLaura Mainardi Villarino, M.D.\nDepartment of Neurology\n\nKaiser Permanente San Francisco\nNeurology and Clinical Neurophysiology\n\nGenerated on 8/27/24 4:29 PM"
+    },
+    {
+      "chunk_id": "doc002_p015_c001",
+      "document_id": "doc002",
+      "file_name": "EMR Report.pdf",
+      "page_number": 15,
+      "chunk_index": 0,
+      "text": "Dannemann, William J\n#4 KAISER PERMANENTE. MRN: 110016124151, DOB: 12/18/1991,\nLegal Sex: M\nSSN: xxx-xx-7829\nVisit date: 12/13/2019\n\n12/13/2019 - Office Visit in NEUROLOGY DEPARTMENT\nVisit Information\n\nProvider Information\n\nEncounter Provider Authorizing Provider\n\nMainardi Villarino, Laura (M.D.) Mainardi Villarino, Laura (M.D.)\nDepartment\n\nName Address Phone\n\nNEUROLOGY DEPARTMENT 450 6TH AVENUE 415-833-4555\n\nSan Francisco CA 94118-3010\n\nLevel of Service\n\nLevel of Service\nOUTPT NEW LEVEL 5\n\nReason for Visit\n\nChief Complaint\ne STROKE\n\nVisit Diagnosis\ne CRYPTOGENIC STROKE (primary) [163.9]\n\nRevision History\n\nAction Name Code User Date/Time\nDiagnosis #1\nAdd CRYPTOGENIC STROKE (primary) 163.9 Mainardi Villarino, Laura 12/13/2019 1007\n(M.D.)\n\nAll Charges for This Encounter\n\nCode Description Service Date Service Provider Modifiers Qty\n99205 OFFICE OUTPATIENT NEW 60 MINUTES 12/13/2019 Mainardi Villarino, Laura 1\n(M.D.)"
+    },
+    {
+      "chunk_id": "doc002_p015_c002",
+      "document_id": "doc002",
+      "file_name": "EMR Report.pdf",
+      "page_number": 15,
+      "chunk_index": 1,
+      "text": "Clinical Notes\nUnknown\nProgress Notes by Mainardi Villarino, Laura (M.D.) at 12/13/2019 0830\n\nVersion 1 of 1\n\nAuthor: Mainardi Villarino, Laura(M.D.) Service: — Author Type: Physician\nFiled: 12/13/2019 10:07 AM Encounter Date: 12/13/2019 Creation Time: 12/12/2019 4:11 PM\nStatus: Signed Editor: Mainardi Villarino, Laura (M.D.) (Physician)\n\nNEUROLOGY NOTE\n\nCHIEF COMPLAINT/REASON FOR CONSULTATION :stroke\n\nHISTORY OF PRESENT ILLNESS:\nWilliam J Dannemann is a 27 Y male with h/o of PFO/ASD who recently had brief episode of right sided numbness and weakness\nwith MRI notable for small left MCA territory infarct possibly cardioembolic in setting of PFO.\n\nSymptoms occurred on 12/1/19. He reports prior to onset of symptoms he had driven without stopping for 8 to 8.5 hours from\nL.A. To San Francisco. He arrived at a target and when he got out of the car felt his right arm and leg were numb, and noted his\n\nGenerated on 8/27/24 4:29 PM"
+    },
+    {
+      "chunk_id": "doc003_p001_c001",
+      "document_id": "doc003",
+      "file_name": "Hospital Encounters.pdf",
+      "page_number": 1,
+      "chunk_index": 0,
+      "text": "Dannemann, William J\nfits KAISER PERMANENTE.. MRN: 110016124151, DOB: 12/18/1991,\nLegal Sex: M\n\nSSN: xxx-xx-7829\nAdm: 12/2/2019, D/C: 12/4/2019\n\n12/02/2019 - ED to Hosp-Admission (Discharged) in 1 NORTH B NURSING UNIT\n\nHospital INFO\nAdmission Information\nCurrent Information\nAttending at Discharge Admitting Provider Admission Type Admission Status\nThomashow, Michael Alexander Thomashow, Michael Alexander Urgent Confirmed Discharge\n(M.D.) (M.D.)\nAdmission Date/Time Discharge Date/Time Hospital Service Auth/Cert Status\n12/02/19 1801 12/04/19 1600 Internal Medicine Incomplete\nHospital Area Unit Room/Bed\nSFO-HOSPITAL SFO-1NB* >HOSPITAL 1114/1114-B\nDischarge Disposition Discharge Destination\n\nHome or Self Care.\n\n12/02/2019 - ED to Hosp-Admission (Discharged) in 1 NORTH B NURSING UNIT (continued)\nVisit Information\n\nAdmission Information\nArrival Date/Time: 12/02/2019 5:50 PM Admit Date/Time: 12/02/2019 6:01PM _ IP Adm. Date/Time:"
+    },
+    {
+      "chunk_id": "doc003_p001_c002",
+      "document_id": "doc003",
+      "file_name": "Hospital Encounters.pdf",
+      "page_number": 1,
+      "chunk_index": 1,
+      "text": "Admission Type: Urgent Point of Origin: Non-health Care Admit Category: Unscheduled, Less\nFacility Point Of Than 24 Hours Prior\nOrigin To Admission\nMeans of Arrival: Car Primary Service: Internal Medicine Secondary Service: N/A\nTransfer Source: Not Applicable Service Area: NORTHERN Unit: 1 NORTH B\nCALIFORNIA NURSING UNIT\nREGION\nAdmit Provider: Thomashow, Attending Provider: McLeary, Corinne Referring Provider:\nMichael Alexander Rachel (M.D.)\n(M.D.)\n\nED Disposition\n\nED Disposition Condition User Date/Time Comment\nADM TELE -- Delworth, Tue Dec 3, 2019 --\n\nPatricia A. 7:17 AM\n\n(R.N.)\n\nDischarge Information\n\nDate/Time: 12/04/2019 4:00 PM Disposition: Home Or Self Care. Destination: —\nProvider: Thomashow, Michael Alexander = Unit: 1 NORTH B NURSING UNIT\n(M.D.)\n\nLevel of Service\n\nLevel of Service\nED VISIT LEVEL 5\n\nReason for Visit"
+    },
+    {
+      "chunk_id": "doc003_p001_c003",
+      "document_id": "doc003",
+      "file_name": "Hospital Encounters.pdf",
+      "page_number": 1,
+      "chunk_index": 2,
+      "text": "Chief Complaint\ne NUMBNESS (yesterday 830pm. states 1 minutes of twitching of right arm, face, leg. then followed by numbess for 5 min. resloved\nnow, talked with advise rn told to come to ed. )\nVisit Diagnoses\nName Code Is ED?\nGenerated on 8/27/24 4:29 PM"
+    },
+    {
+      "chunk_id": "doc003_p002_c001",
+      "document_id": "doc003",
+      "file_name": "Hospital Encounters.pdf",
+      "page_number": 2,
+      "chunk_index": 0,
+      "text": "Dannemann, William J\n\nAy KAISER PERMANENTE.. MRN: 110016124151, DOB: 12/18/1991,\n\nLegal Sex: M\nSSN: xxx-xx-7829\nAdm: 12/2/2019, D/C: 12/4/2019\n\n12/02/2019 - ED to Hosp-Admission (Discharged) in 1 NORTH B NURSING UNIT (continued)\nReason for Visit (continued)\n\nTRANSIENT CEREBRAL ISCHEMIA (primary) G45.9 Yes\nCRYPTOGENIC STROKE 163.9 No\nRevision History\n\nActio Is\nn Name Code ED? User Date/Time\nDiagnosis #1\nAdd TRANSIENT CEREBRAL ISCHEMIA (primary) G45.9 Yes Joseph, Tony Abraham = 12/02/2019 2212\n(M.D.)\n\nDiagnosis #2\nAdd CRYPTOGENIC STROKE 163.9 No Liu, Siywan John (M.D.) 12/04/2019 1458\n\nHospital Problems"
+    },
+    {
+      "chunk_id": "doc003_p002_c002",
+      "document_id": "doc003",
+      "file_name": "Hospital Encounters.pdf",
+      "page_number": 2,
+      "chunk_index": 1,
+      "text": "Present on\nName Code Date Noted Date Resolved Admission?\nCRYPTOGENIC STROKE (primary) 163.9 12/02/2019 — —\nATRIAL SEPTAL DEFECT Q?21.1 06/23/2017 — Exempt from POA\nreporting\nELEVATED TROPONIN | R79.89 12/02/2019 — Exempt from POA\nreporting\nVisit Account Information\nHospital Account\nName Acct ID Class Status Primary Coverage\nDannemann, William J 3141567237 Observation Closed SELF-\n71 FUNDED/KPIC - S-F\nEPO DED(EE-E)\nPLAN 4358997\nGuarantor Account (for Hospital Account #314156723771)\nRelation to\nName Pt Service Area Active? Acct Type\nDannemann, William J Self NCAL Yes Personal/Family\nAddress Phone\n159 Harold Ave 203-801-8468(H)\nSAN FRANCISCO, CA 94112 203-801-8468(O)\nCoverage Information (for Hospital Account #314156723771)\nF/O Payor/Plan Precert #\nSELF-FUNDED/KPIC/SANDIA CORPORATION ACTIVE HRA EE AND EE+FAM\nSubscriber Subscriber #\nDannemann, William J 110016124151\nAddress Phone\nPO BOX 30547 614-212-7005\n\nSALT LAKE CITY, UT 84130-0547\n\nEvents"
+    },
+    {
+      "chunk_id": "doc003_p002_c003",
+      "document_id": "doc003",
+      "file_name": "Hospital Encounters.pdf",
+      "page_number": 2,
+      "chunk_index": 2,
+      "text": "ED Arrival at 12/2/2019 1750\nUnit: KP SAN FRANCISCO ED\n\nAdmission at 12/2/2019 1801\n\nUnit: KP SAN FRANCISCO ED Room: SW Bed: SW-05\nPatient class: Emergency Service: Emergency Medicine\n\nGenerated on 8/27/24 4:29 PM"
+    },
+    {
+      "chunk_id": "doc003_p003_c001",
+      "document_id": "doc003",
+      "file_name": "Hospital Encounters.pdf",
+      "page_number": 3,
+      "chunk_index": 0,
+      "text": "Dannemann, William J\n\nMRN: 110016124151, DOB: 12/18/1991,\nLegal Sex: M\n\nSSN: xxx-xx-7829\n\nAdm: 12/2/2019, D/C: 12/4/2019\n\n12/02/2019 - ED to Hosp-Admission (Discharged) in 1 NORTH B NURSING UNIT (continued)\n\nEvents (continued)\n\n#4 KAISER PERMANENTE.\n\nED Roomed at 12/2/2019 1801\n\nUnit: KP SAN FRANCISCO ED Room: SW Bed: SW-05\nPatient class: Emergency Service: Emergency Medicine\n\nTransfer In at 12/2/2019 1806\nUnit: KP SAN FRANCISCO ED Room: SW Bed: SW-04\nPatient class: Emergency Service: Emergency Medicine\n\nED Transfer at 12/2/2019 1806\nUnit: KP SAN FRANCISCO ED Room: SW Bed: SW-04\nPatient class: Emergency Service: Emergency Medicine\n\nTransfer In at 12/2/2019 1818\nUnit: KP SAN FRANCISCO ED Room: SW Bed: SW-03\nPatient class: Emergency Service: Emergency Medicine\n\nED Transfer at 12/2/2019 1818\nUnit: KP SAN FRANCISCO ED Room: SW Bed: SW-03\nPatient class: Emergency Service: Emergency Medicine"
+    },
+    {
+      "chunk_id": "doc003_p003_c002",
+      "document_id": "doc003",
+      "file_name": "Hospital Encounters.pdf",
+      "page_number": 3,
+      "chunk_index": 1,
+      "text": "Transfer In at 12/2/2019 1841\nUnit: KP SAN FRANCISCO ED Room: RC Bed: RC-03\nPatient class: Emergency Service: Emergency Medicine\n\nED Transfer at 12/2/2019 1841\nUnit: KP SAN FRANCISCO ED Room: RC Bed: RC-03\nPatient class: Emergency Service: Emergency Medicine\n\nTransfer In at 12/2/2019 1937\nUnit: KP SAN FRANCISCO ED Room: PC Bed: PC-05\nPatient class: Emergency Service: Emergency Medicine\n\nED Transfer at 12/2/2019 1937\nUnit: KP SAN FRANCISCO ED Room: PC Bed: PC-05\nPatient class: Emergency Service: Emergency Medicine\n\nPatient Update at 12/2/2019 2300\nUnit: KP SAN FRANCISCO ED Room: PC Bed: PC-05\nPatient class: Emergency Service: Emergency Medicine\n\nPatient Update at 12/2/2019 2305\nUnit: KP SAN FRANCISCO ED Room: PC Bed: PC-05\nPatient class: Observation Service: Internal Medicine\n\nTransfer In at 12/3/2019 0852\nUnit: KP SAN FRANCISCO ED Room: VIRA Bed: VIRA-02\nPatient class: Observation Service: Internal Medicine"
+    },
+    {
+      "chunk_id": "doc003_p003_c003",
+      "document_id": "doc003",
+      "file_name": "Hospital Encounters.pdf",
+      "page_number": 3,
+      "chunk_index": 2,
+      "text": "ED Transfer at 12/3/2019 0852\nUnit: KP SAN FRANCISCO ED Room: VIRA Bed: VIRA-02\nPatient class: Observation Service: Internal Medicine\n\nTransfer In at 12/3/2019 0856\nUnit: 17 NORTH B NURSING UNIT Room: 1116 Bed: 1116-B\n\nPatient class: Observation\n\nGenerated on 8/27/24 4:29 PM\n\nService: Internal Medicine"
+    },
+    {
+      "chunk_id": "doc003_p004_c001",
+      "document_id": "doc003",
+      "file_name": "Hospital Encounters.pdf",
+      "page_number": 4,
+      "chunk_index": 0,
+      "text": "Dannemann, William J\n\nAh, KAISER PERMANENTE... MRN: 110016124151, DOB: 12/18/1991,\n\nLegal Sex: M\nSSN: xxx-xx-7829\nAdm: 12/2/2019, D/C: 12/4/2019\n\n12/02/2019 - ED to Hosp-Admission (Discharged) in 1 NORTH B NURSING UNIT (continued)\n\nEvents (continued)\n\nAdmit from ED at 12/3/2019 0856\n\nUnit: 1 NORTH B NURSING UNIT Room: 1116 Bed: 1116-B\nPatient class: Observation Service: Internal Medicine\n\nTransfer Out at 12/3/2019 1545\n\nUnit: 1 NORTH B NURSING UNIT Room: 1116 Bed: 1116-B\nPatient class: Observation Service: Internal Medicine\n\nTransfer In at 12/3/2019 1545\nUnit: 1 NORTH B NURSING UNIT Room: 1114 Bed: 1114-B\nPatient class: Observation Service: Internal Medicine\n\nSurgery at 12/4/2019 0818\n\nUnit: SFO-MAIN-PRM Room: PRM 01 - SFO KPHC ONLY\nPatient class: Surgery During Current Service: Cardiology\nHospital Contact\n\nDischarge at 12/4/2019 1600\n\nUnit: 1 NORTH B NURSING UNIT Room: 1114 Bed: 1114-B\nPatient class: Observation Service: Internal Medicine"
+    },
+    {
+      "chunk_id": "doc003_p004_c002",
+      "document_id": "doc003",
+      "file_name": "Hospital Encounters.pdf",
+      "page_number": 4,
+      "chunk_index": 1,
+      "text": "ED Provider Note\nED Provider Notes by Joseph, Tony Abraham (M.D.) at 12/2/2019 2013\n\nVersion 2 of 2\n\nAuthor: Joseph, Tony Abraham (M.D.) Service: — Author Type: Physician\nFiled: 12/2/2019 9:52 PM Date of Service: 12/2/2019 8:13 PM Creation Time: 12/2/2019 8:13 PM\nStatus: Addendum Editor: Joseph, Tony Abraham (M.D.) (Physician)\n\nChief Complaint\nPatient presents with\n\n* NUMBNESS\nyesterday 830pm. states 1 minutes of twitching of right arm, face, leg. then followed by numbess for 5 min.\nresloved now, talked with advise rn told to come to ed.\n\nHPI\n\n27 Y male in Emergency Department with right-sided weakness and slurred speech that occurred last night, lasted for\napproximately 5 minutes and resolved. No headache or neck pain, no vomiting. Patient has history of atrial septal\ndefect, this was still present on bubble study 2 years prior. No medications for symptoms.\n\nPatient drove from Los Angeles yesterday, 9-hour car ride, no leg swelling or pain.\n\nROS:\n\nConstitutional: No fever"
+    },
+    {
+      "chunk_id": "doc003_p004_c003",
+      "document_id": "doc003",
+      "file_name": "Hospital Encounters.pdf",
+      "page_number": 4,
+      "chunk_index": 2,
+      "text": "Eyes: No acuity change\n\nEars, Nose, Mouth, Throat: no cough\nRespiratory: No SOB\nCardiovascular: No chest pain\nGastrointestinal: No vomiting\nGenitourinary: No dysuria\n\nGenerated on 8/27/24 4:29 PM"
+    },
+    {
+      "chunk_id": "doc003_p005_c001",
+      "document_id": "doc003",
+      "file_name": "Hospital Encounters.pdf",
+      "page_number": 5,
+      "chunk_index": 0,
+      "text": "Dannemann, William J\n\n4 KAISER PERMANENTE. MAN: (10016124151, DOB: 12/46/1004,\nLegal Sex: M\nSSN: xxx-xx-7829\nAdm: 12/2/2019, D/C: 12/4/2019\n12/02/2019 - ED to Hosp-Admission (Discharged) in 1 NORTH B NURSING UNIT (continued)\n\nED Provider Note (continued)\n\nMusculoskeletal: No joint pain.\nNeurological: See HPI\nIntegumentary: no rash\n\nHeme: No bleeding\n\nPMH:\n\nPatient Active Problem List:\nALLERGIC RHINITIS\nATRIAL SEPTAL DEFECT\n\nMedications:\nNo current facility-administered medications for this encounter.\n\nCurrent Outpatient Medications\nMedication Sig\n\n¢ Azelastine (ASTELIN) 137 mcg Use 2 sprays in each nostril 2 times a day\n(0.1 %) Nasl Aero Spray\n¢ Fluticasone (FLONASE ALLERGY USE 1 SPRAY IN EACH NOSTRIL 2 TIMES A DAY\nRELIEF) 50 mcg/actuation Nasl\nSpSn\n¢ Montelukast (SINGULAIR) 10 mg_ Take 1 tablet by mouth daily\nOral Tab\n\nSocial and Family history:\nSocial History\n\nTobacco Use"
+    },
+    {
+      "chunk_id": "doc003_p005_c002",
+      "document_id": "doc003",
+      "file_name": "Hospital Encounters.pdf",
+      "page_number": 5,
+      "chunk_index": 1,
+      "text": "* Smoking status: Never Smoker\n* Smokeless tobacco: Never Used\nSubstance Use Topics\n* Alcohol use: Yes\nAlcohol/week: 4.0 standard drinks\nTypes: 2 Glasses of wine, 3 Cans of\n\nbeer, 1 Standard drinks or\nequivalent per week\n* Drug use: No\n\nNo family history of stroke or heart disease.\n\nFamily History\n\nProblem Relation Age of Onset\n* Hypertension None\n\n* Diabetes None\n\n* Heart Disease None\n\n* Stroke None\n\nGenerated on 8/27/24 4:29 PM"
+    },
+    {
+      "chunk_id": "doc003_p006_c001",
+      "document_id": "doc003",
+      "file_name": "Hospital Encounters.pdf",
+      "page_number": 6,
+      "chunk_index": 0,
+      "text": "Dannemann, William J\n\nany, KAISER PERMANENTE.. MRN: 110016124151, DOB: 12/18/1991,\n\nLegal Sex: M\nSSN: xxx-xx-7829\nAdm: 12/2/2019, D/C: 12/4/2019\n\n12/02/2019 - ED to Hosp-Admission (Discharged) in 1 NORTH B NURSING UNIT (continued)\n\nED Provider Note (continued)\n\n* Prostate Cancer Grandfather\nin his 80s\n* Hyperlipidemia Mother\n\nAllergies: Patient has no known allergies.\n\nExam: BP 122/84 | Pulse 73 | Temp 98.7 °F (37.1 °C) | Resp 18 | Wt 99.8 kg (220 Ib) | SpO2 97% | BMI 28.23\nkg/m?\n\nConstitutional: no distress, appears well\n\nEyes: Pupils equal and reactive, extraocular movements intact\n\nHENT: oropharynx clear and without exudates. Moist mucous membranes\n\nNeck: Supple neck, no masses, range of motion without difficulty\n\nRespiratory: normal respiratory effort, clear to auscultation bilaterally\n\nCardiovascular: Regular rate and rhythm. 2+ radial pulse, normal S1-S2\n\nAbdominal: soft, non tender, non distended. No rebound, no guarding,"
+    },
+    {
+      "chunk_id": "doc003_p006_c002",
+      "document_id": "doc003",
+      "file_name": "Hospital Encounters.pdf",
+      "page_number": 6,
+      "chunk_index": 1,
+      "text": "Neurological: Cranial nerves II through XII intact, no pronator drift, finger-nose testing intact. Normal rapid alternating\nmovements. 5/5 motor strength in bilateral upper extremity bilateral lower extremity. Sensation intact and equal in\nbilateral upper extremity bilateral lower extremity.\n\nMusculoskeletal: extremities unremarkable, moving all extremities, no calf tenderness, no leg swelling\n\nSkin: Warm and dry, no rashes\n\nMDM:\n\n27 Y male presents with right-sided weakness, slurred speech, concern for transient ischemic attack, lower suspicion\nfor intracranial hemorrhage or acute stroke, will check labs, CT head, carotid ultrasound. Given patient's history of\nASD, concern for shunting of clot.\n\nNo signs or symptoms of DVT.\n\nECG:\nNormal sinus rhythm, heart rate 67, normal axis, T wave inversion lead Ill. No ST segment changes.\n\nDoubt pulmonary embolism given lack of chest pain or shortness of breath.\n\nImaging:\nCt Head\n\nResult Date: 12/2/2019"
+    },
+    {
+      "chunk_id": "doc003_p006_c003",
+      "document_id": "doc003",
+      "file_name": "Hospital Encounters.pdf",
+      "page_number": 6,
+      "chunk_index": 2,
+      "text": "CT HEAD WITHOUT CONTRAST ** HISTORY **: Right-sided weakness and slurred speech last night now resolved.\n** TECHNIQUE **: CT images of the head were acquired without intravenous contrast. CTDI: 59.72 mGy DLP: 955.59\nmGy-cm COMPARISON: None available ** FINDINGS **: BRAIN PARENCHYMA: No acute hemorrhage. No mass\neffect or herniation. Gray-white differentiation is maintained. White matter is within normal limits for age.\nVENTRICLES/EXTRA-AXIAL SPACES: No hydrocephalus or extra-axial fluid collections. EXTRACRANIAL\nSTRUCTURES: Normal bones and soft tissues. Visualized paranasal sinuses and mastoids are clear.\n\nNormal noncontrast CT head.\n\nUs Vascular\n\nGenerated on 8/27/24 4:29 PM"
+    },
+    {
+      "chunk_id": "doc003_p007_c001",
+      "document_id": "doc003",
+      "file_name": "Hospital Encounters.pdf",
+      "page_number": 7,
+      "chunk_index": 0,
+      "text": "Dannemann, William J\nKAISER PERMANENTE. MRN: 110016124151, DOB: 12/18/1991,\nLegal Sex: M\nSSN: xxx-xx-7829\nAdm: 12/2/2019, D/C: 12/4/2019\n12/02/2019 - ED to Hosp-Admission (Discharged) in 1 NORTH B NURSING UNIT (continued)\n\nED Provider Note (continued)\n\nResult Date: 12/2/2019"
+    },
+    {
+      "chunk_id": "doc003_p007_c002",
+      "document_id": "doc003",
+      "file_name": "Hospital Encounters.pdf",
+      "page_number": 7,
+      "chunk_index": 1,
+      "text": "ULTRASOUND CAROTID ** HISTORY **: Right-sided weakness now resolved. ** TECHNIQUE **: Grayscale, color\nand spectral Doppler ultrasound images of the cervical carotid and vertebral arteries were acquired. COMPARISON:\nNone available ** FINDINGS **: RIGHT PLAQUE: Absent. CCA peak systolic velocity: 143.7,137.8,118.1 cm/s\nProximal ICA systolic velocity: 82.7 cm/s Mid ICA systolic velocity: 69.8 cm/s Distal ICA systolic velocity: 71.4 cm/s\nICA end diastolic velocity: 37.5,29.4,21.3 cm/s ECA peak systolic velocity: 111.3 cm/s ICA/CCA ratio: 0.6 Vertebral\nartery: Patent and antegrade. LEFT PLAQUE: Absent. CCA peak systolic velocity: 128.2,130.6,150.7 cm/s Proximal\nICA systolic velocity: 105.0 cm/s Mid ICA systolic velocity: 95.7 cm/s Distal ICA systolic velocity: 67.8 cm/s ICA end\ndiastolic velocity: 28.3,30.7,19.0 cm/s ECA peak systolic velocity: 125.8 cm/s ICA/CCA ratio: 0.8 Vertebral artery:\nPatent and antegrade. OTHER: None."
+    },
+    {
+      "chunk_id": "doc003_p007_c003",
+      "document_id": "doc003",
+      "file_name": "Hospital Encounters.pdf",
+      "page_number": 7,
+      "chunk_index": 2,
+      "text": "1. Right internal carotid artery: No significant stenosis. 2. Left internal carotid artery: No significant stenosis.\n\nRecent Results (from the past 24 hour(s))\nCHEM 7 (NA, K, CL, CO2, BUN, GLUC, CR)\n\nCollection Time: 12/02/19 7:46 PM\n\nResult Value Ref Range\nSodium 139 135 - 145 mEq/L\nPotassium 3.9 3.5 - 5.3 mEq/L\nChloride 103 100 - 111 mEq/L\nCO2 29 24 - 33 mEq/L\nAnion gap, ser/plas 7 5 - 16 mEq/L\nBUN 12 7-27 mg/dl\nGLUCOSE, RANDOM 86 60 - 159 mg/dL\nCreatinine 0.83 <=1.34 mg/dL\nGlomerular filtration rate, nonAfrican >60 >=60 mL/min\nAmerican\nGLOMERULAR FILTRATION RATE - >60 >=60 mL/min\nAFRICAN AMERICAN\nComment, glomerular filtration rate SEE NOTE\n\nTROPONIN |\nCollection Time: 12/02/19 7:46 PM\n\nResult Value Ref Range\nTroponin | 0.05 (H) 0.00 - 0.04 ng/mL\nNarrative\n\nCall results to y853079 at 33304 on 12/2/2019 20:20:18 PST by e765949.\nCBC W AUTOMATED DIFFERENTIAL\n\nCollection Time: 12/02/19 7:46 PM"
+    },
+    {
+      "chunk_id": "doc003_p007_c004",
+      "document_id": "doc003",
+      "file_name": "Hospital Encounters.pdf",
+      "page_number": 7,
+      "chunk_index": 3,
+      "text": "Result Value Ref Range\nWBC COUNT 5.5 3.7 - 11.1 K/uL\nRed blood cells count 4.67 4.10 - 5.70 M/uL\nHgb 14.5 13.0 - 17.0 g/dL\nHematocrit 41.8 39.0 - 51.0 %\nMCV 90 80 - 100 fL\nRDW, RBC 12.1 12.0 - 16.5%\nPlatelets count 193 140 - 400 K/uL\nRBC's, nucleated 0 <=0 /100WC\nDifferential panel AUTO DIF\n\nWBC AUTOMATED DIFFERENTIAL\nGenerated on 8/27/24 4:29 PM"
+    },
+    {
+      "chunk_id": "doc003_p008_c001",
+      "document_id": "doc003",
+      "file_name": "Hospital Encounters.pdf",
+      "page_number": 8,
+      "chunk_index": 0,
+      "text": "#4 KAISER PERMANENTE.\n\nDannemann, William J\n\nMRN: 110016124151, DOB: 12/18/1991,\nLegal Sex: M\n\nSSN: xxx-xx-7829\n\nAdm: 12/2/2019, D/C: 12/4/2019\n\n12/02/2019 - ED to Hosp-Admission (Discharged) in 1 NORTH B NURSING UNIT (continued)\n\nED Provider Note (continued)\n\nCollection Time: 12/02/19 7:46 PM\n\nResult\nNeutrophils %, automated count\nLymphocytes %, automated count\nMonos %, auto\nEosinophils %, automated count\nBasophils %, automated count\nNeutrophils auto count\n\nPatient Vitals for the past 24 hrs:\n\nBP Temp\n\n12/02/19 2035 122/84 —\n12/02/19 1800 134/86\n\n98.7 °F (37.1\n\nValue\n\n30\n\n3.2\n\nPulse Resp\n73 18\n\n85 18\n\nRef Range\n42-76%\n15-47%\n5-13 %\n0-7%\n0-1%\n\n1.8 - 7.9 K/uL\n\nSpO02 Weight\n97 % —\n99.8 kg (220\n0\n99 % Ib)\n\nCT head negative, will treat patient with aspirin, plan for admission and monitoring given TIA. .\n\nDisposition:\nHBS\n\nGenerated on 8/27/24 4:29 PM"
+    },
+    {
+      "chunk_id": "doc003_p009_c001",
+      "document_id": "doc003",
+      "file_name": "Hospital Encounters.pdf",
+      "page_number": 9,
+      "chunk_index": 0,
+      "text": "Dannemann, William J\nf*) KAISER PERMANENTE. MRN: 110016124151, DOB: 12/18/1991,\nLegal Sex: M\nSSN: xxx-xx-7829\nAdm: 12/2/2019, D/C: 12/4/2019\n\n12/02/2019 - ED to Hosp-Admission (Discharged) in 1 NORTH B NURSING UNIT (continued)\n\nED Provider Note (continued)\n\nElectronically signed by Joseph, Tony Abraham (M.D.) at 12/2/2019 9:52 PM\n\nVersion 1 of 2\n\nAuthor: Joseph, Tony Abraham (M.D.) Service: — Author Type: Physician\nFiled: 12/2/2019 9:37 PM Date of Service: 12/2/2019 8:13 PM Creation Time: 12/2/2019 8:13 PM\nStatus: Signed Editor: Joseph, Tony Abraham (M.D.) (Physician)\n\nChief Complaint\nPatient presents with\n\n* NUMBNESS\nyesterday 830pm. states 1 minutes of twitching of right arm, face, leg. then followed by numbess for 5 min.\nresloved now, talked with advise rn told to come to ed.\n\nHPI"
+    },
+    {
+      "chunk_id": "doc003_p009_c002",
+      "document_id": "doc003",
+      "file_name": "Hospital Encounters.pdf",
+      "page_number": 9,
+      "chunk_index": 1,
+      "text": "27 Y male in Emergency Department with right-sided weakness and slurred speech that occurred last night, lasted for\napproximately 5 minutes and resolved. No headache or neck pain, no vomiting. Patient has history of atrial septal\ndefect, this was still present on bubble study 2 years prior. No medications for symptoms.\n\nPatient drove from Los Angeles yesterday, 9-hour car ride, no leg swelling or pain.\n\nROS:\n\nConstitutional: No fever\n\nEyes: No acuity change\n\nEars, Nose, Mouth, Throat: no cough\nRespiratory: No SOB\nCardiovascular: No chest pain\nGastrointestinal: No vomiting\nGenitourinary: No dysuria\nMusculoskeletal: No joint pain.\nNeurological: See HPI\nIntegumentary: no rash\n\nHeme: No bleeding\n\nPMH:\n\nPatient Active Problem List:\nALLERGIC RHINITIS\nATRIAL SEPTAL DEFECT\n\nMedications:\nNo current facility-administered medications for this encounter.\n\nCurrent Outpatient Medications\nMedication Sig\n\n¢ Azelastine (ASTELIN) 137 mcg Use 2 sprays in each nostril 2 times a day\n(0.1 %) Nasl Aero Spray"
+    },
+    {
+      "chunk_id": "doc003_p009_c003",
+      "document_id": "doc003",
+      "file_name": "Hospital Encounters.pdf",
+      "page_number": 9,
+      "chunk_index": 2,
+      "text": "Generated on 8/27/24 4:29 PM"
+    },
+    {
+      "chunk_id": "doc003_p010_c001",
+      "document_id": "doc003",
+      "file_name": "Hospital Encounters.pdf",
+      "page_number": 10,
+      "chunk_index": 0,
+      "text": "Dannemann, William J\n\niy KAISER PERMANENTE... MRN: 110016124151, DOB: 12/18/1991,\n\nLegal Sex: M\nSSN: xxx-xx-7829\nAdm: 12/2/2019, D/C: 12/4/2019\n\n12/02/2019 - ED to Hosp-Admission (Discharged) in 1 NORTH B NURSING UNIT (continued)\n\nED Provider Note (continued)\n\n¢ Fluticasone (FLONASE ALLERGY USE 1 SPRAY IN EACH NOSTRIL 2 TIMES A DAY\nRELIEF) 50 mcg/actuation Nasl\nSpSn\n\n* Montelukast (SINGULAIR) 10 mg _ Take 1 tablet by mouth daily\nOral Tab\n\nSocial and Family history:\nSocial History\n\nTobacco Use\n\n* Smoking status: Never Smoker\n* Smokeless tobacco: Never Used\nSubstance Use Topics\n* Alcohol use: Yes\nAlcohol/week: 4.0 standard drinks\nTypes: 2 Glasses of wine, 3 Cans of\n\nbeer, 1 Standard drinks or\nequivalent per week\n* Drug use: No\n\nNo family history of stroke or heart disease.\n\nFamily History\nProblem Relation Age of Onset\n* Hypertension None\n* Diabetes None\n* Heart Disease None\n* Stroke None\n* Prostate Cancer Grandfather\nin his 80s\n* Hyperlipidemia Mother"
+    },
+    {
+      "chunk_id": "doc003_p010_c002",
+      "document_id": "doc003",
+      "file_name": "Hospital Encounters.pdf",
+      "page_number": 10,
+      "chunk_index": 1,
+      "text": "Allergies: Patient has no known allergies.\n\nExam: BP 122/84 | Pulse 73 | Temp 98.7 °F (37.1 °C) | Resp 18 | Wt 99.8 kg (220 Ib) | SpO2 97% | BMI 28.23\nkg/m?\n\nConstitutional: no distress, appears well\n\nEyes: Pupils equal and reactive, extraocular movements intact\n\nHENT: oropharynx clear and without exudates. Moist mucous membranes\n\nNeck: Supple neck, no masses, range of motion without difficulty\n\nRespiratory: normal respiratory effort, clear to auscultation bilaterally\n\nCardiovascular: Regular rate and rhythm. 2+ radial pulse, normal $1-S2\n\nAbdominal: soft, non tender, non distended. No rebound, no guarding,\n\nNeurological: Cranial nerves II through XII intact, no pronator drift, finger-nose testing intact. Normal rapid alternating\n\nGenerated on 8/27/24 4:29 PM"
+    },
+    {
+      "chunk_id": "doc003_p011_c001",
+      "document_id": "doc003",
+      "file_name": "Hospital Encounters.pdf",
+      "page_number": 11,
+      "chunk_index": 0,
+      "text": "Dannemann, William J\nKAISER PERMANENTE. MRN: 110016124151, DOB: 12/18/1991,\nLegal Sex: M\nSSN: xxx-xx-7829\nAdm: 12/2/2019, D/C: 12/4/2019\n12/02/2019 - ED to Hosp-Admission (Discharged) in 1 NORTH B NURSING UNIT (continued)\n\nED Provider Note (continued)\n\nmovements. 5/5 motor strength in bilateral upper extremity bilateral lower extremity. Sensation intact and equal in\nbilateral upper extremity bilateral lower extremity.\n\nMusculoskeletal: extremities unremarkable, moving all extremities, no calf tenderness, no leg swelling\n\nSkin: Warm and dry, no rashes\n\nMDM:\n\n27 Y male presents with right-sided weakness, slurred speech, concern for transient ischemic attack, lower suspicion\nfor intracranial hemorrhage or acute stroke, will check labs, CT head, carotid ultrasound. Given patient's history of\nASD, concern for shunting of clot.\n\nNo signs or symptoms of DVT.\n\nECG:\nSinus tachycardia, heart rate 105, normal axis, T wave inversion lead III, aVF."
+    },
+    {
+      "chunk_id": "doc003_p011_c002",
+      "document_id": "doc003",
+      "file_name": "Hospital Encounters.pdf",
+      "page_number": 11,
+      "chunk_index": 1,
+      "text": "Doubt pulmonary embolism given lack of chest pain or shortness of breath.\n\nImaging:\nCt Head\n\nResult Date: 12/2/2019\n\nCT HEAD WITHOUT CONTRAST ** HISTORY **: Right-sided weakness and slurred speech last night now resolved.\n** TECHNIQUE **: CT images of the head were acquired without intravenous contrast. CTDI: 59.72 mGy DLP: 955.59\nmGy-cm COMPARISON: None available ** FINDINGS **: BRAIN PARENCHYMA: No acute hemorrhage. No mass\neffect or herniation. Gray-white differentiation is maintained. White matter is within normal limits for age.\nVENTRICLES/EXTRA-AXIAL SPACES: No hydrocephalus or extra-axial fluid collections. EXTRACRANIAL\nSTRUCTURES: Normal bones and soft tissues. Visualized paranasal sinuses and mastoids are clear.\n\nNormal noncontrast CT head.\nUs Vascular\n\nResult Date: 12/2/2019"
+    },
+    {
+      "chunk_id": "doc003_p011_c003",
+      "document_id": "doc003",
+      "file_name": "Hospital Encounters.pdf",
+      "page_number": 11,
+      "chunk_index": 2,
+      "text": "ULTRASOUND CAROTID ** HISTORY **: Right-sided weakness now resolved. ** TECHNIQUE **: Grayscale, color\nand spectral Doppler ultrasound images of the cervical carotid and vertebral arteries were acquired. COMPARISON:\nNone available ** FINDINGS **: RIGHT PLAQUE: Absent. CCA peak systolic velocity: 143.7,137.8,118.1 cm/s\nProximal ICA systolic velocity: 82.7 cm/s Mid ICA systolic velocity: 69.8 cm/s Distal ICA systolic velocity: 71.4 cm/s\nICA end diastolic velocity: 37.5,29.4,21.3 cm/s ECA peak systolic velocity: 111.3 cm/s ICA/CCA ratio: 0.6 Vertebral\nartery: Patent and antegrade. LEFT PLAQUE: Absent. CCA peak systolic velocity: 128.2,130.6,150.7 cm/s Proximal\nICA systolic velocity: 105.0 cm/s Mid ICA systolic velocity: 95.7 cm/s Distal ICA systolic velocity: 67.8 cm/s ICA end\ndiastolic velocity: 28.3,30.7,19.0 cm/s ECA peak systolic velocity: 125.8 cm/s ICA/CCA ratio: 0.8 Vertebral artery:\nPatent and antegrade. OTHER: None."
+    },
+    {
+      "chunk_id": "doc003_p011_c004",
+      "document_id": "doc003",
+      "file_name": "Hospital Encounters.pdf",
+      "page_number": 11,
+      "chunk_index": 3,
+      "text": "1. Right internal carotid artery: No significant stenosis. 2. Left internal carotid artery: No significant stenosis.\n\nRecent Results (from the past 24 hour(s))\nCHEM 7 (NA, K, CL, CO2, BUN, GLUC, CR)\nCollection Time: 12/02/19 7:46 PM\nResult Value Ref Range\nSodium 139 135 - 145 mEq/L\n\nGenerated on 8/27/24 4:29 PM"
+    },
+    {
+      "chunk_id": "doc003_p012_c001",
+      "document_id": "doc003",
+      "file_name": "Hospital Encounters.pdf",
+      "page_number": 12,
+      "chunk_index": 0,
+      "text": "Dannemann, William J\n\nMRN: 110016124151, DOB: 12/18/1991,\nLegal Sex: M\n\nSSN: xxx-xx-7829\n\nAdm: 12/2/2019, D/C: 12/4/2019\n\n12/02/2019 - ED to Hosp-Admission (Discharged) in 1 NORTH B NURSING UNIT (continued)\n\n&% KAISER PERMANENTE.\n\nED Provider Note (continued)\n\nPotassium 3.9 3.5 - 5.3 mEq/L\nChloride 103 100 - 111 mEq/L\nCO2 29 24 - 33 mEq/L\nAnion gap, ser/plas 7 5 - 16 mEq/L\nBUN 12 7-27 mg/dl\nGLUCOSE, RANDOM 86 60 - 159 mg/dL\nCreatinine 0.83 <=1.34 mg/dL\nGlomerular filtration rate, nonAfrican >60 >=60 mL/min\nAmerican\nGLOMERULAR FILTRATION RATE - >60 >=60 mL/min\nAFRICAN AMERICAN\nComment, glomerular filtration rate SEE NOTE\n\nTROPONIN |\nCollection Time: 12/02/19 7:46 PM\n\nResult Value Ref Range\nTroponin | 0.05 (H) 0.00 - 0.04 ng/mL\nNarrative\n\nCall results to y853079 at 33304 on 12/2/2019 20:20:18 PST by e765949.\n\nCBC W AUTOMATED DIFFERENTIAL\nCollection Time: 12/02/19 7:46 PM"
+    },
+    {
+      "chunk_id": "doc003_p012_c002",
+      "document_id": "doc003",
+      "file_name": "Hospital Encounters.pdf",
+      "page_number": 12,
+      "chunk_index": 1,
+      "text": "Result Value Ref Range\nWBC COUNT 5.5 3.7 - 11.1 K/uL\nRed blood cells count 4.67 4.10 - 5.70 M/uL\nHgb 14.5 13.0 - 17.0 g/dL\nHematocrit 41.8 39.0 - 51.0 %\nMCV 90 80 - 100 fL\nRDW, RBC 12.1 12.0- 16.5%\nPlatelets count 193 140 - 400 K/uL\nRBC's, nucleated 0 <=0 /100WC\nDifferential panel AUTO DIF\nWBC AUTOMATED DIFFERENTIAL\nCollection Time: 12/02/19 7:46 PM\nResult Value Ref Range\nNeutrophils %, automated count 58 42-76%\nLymphocytes %, automated count 30 15-47 %\nMonos %, auto 9 5-13 %\nEosinophils %, automated count 3 0-7%\nBasophils %, automated count 1 0-1%\nNeutrophils auto count 3.2 1.8 - 7.9 K/uL\nPatient Vitals for the past 24 hrs:\nBP Temp Pulse Resp SpO02 Weight\n12/02/19 2035 122/84 — 73 18 97 % —\n12/02/19 1800 134/86 98.7 °F (37.1 85 18 99 % 99.8 kg (220\n\nGenerated on 8/27/24 4:29 PM"
+    },
+    {
+      "chunk_id": "doc003_p013_c001",
+      "document_id": "doc003",
+      "file_name": "Hospital Encounters.pdf",
+      "page_number": 13,
+      "chunk_index": 0,
+      "text": "Dannemann, William J\n\nAh, KAISER PERMANENTE... MRN: 110016124151, DOB: 12/18/1991,\n\nLegal Sex: M\nSSN: xxx-xx-7829\nAdm: 12/2/2019, D/C: 12/4/2019\n\n12/02/2019 - ED to Hosp-Admission (Discharged) in 1 NORTH B NURSING UNIT (continued)\nED Provider Note (continued)\n°C) Ib)\n\nCT head negative, will treat patient with aspirin, plan for admission and monitoring given TIA. .\n\nDisposition:\nHBS\n\nElectronically signed by Joseph, Tony Abraham (M.D.) at 12/2/2019 9:37 PM\n\nED Notes\nED Nursing by Sanders, Lindsey (R.N.) at 12/2/2019 1942\n\nVersion 1 of 1\n\nAuthor: Sanders, Lindsey (R.N.) Service: — Author Type: REGISTERED NURSE\nFiled: 12/2/2019 7:42 PM Date of Service: 12/2/2019 7:42 PM Creation Time: 12/2/2019 7:42 PM\nStatus: Signed Editor: Sanders, Lindsey (R.N.) (REGISTERED NURSE)\n\nReport given to Kristine Samala, RN.\n\nElectronically signed by Sanders, Lindsey (R.N.) at 12/2/2019 7:42 PM\n\nGenerated on 8/27/24 4:29 PM"
+    },
+    {
+      "chunk_id": "doc003_p014_c001",
+      "document_id": "doc003",
+      "file_name": "Hospital Encounters.pdf",
+      "page_number": 14,
+      "chunk_index": 0,
+      "text": "Dannemann, William J\n\nAh, KAISER PERMANENTE... MRN: 110016124151, DOB: 12/18/1991,\n\nLegal Sex: M\nSSN: xxx-xx-7829\nAdm: 12/2/2019, D/C: 12/4/2019\n\n12/02/2019 - ED to Hosp-Admission (Discharged) in 1 NORTH B NURSING UNIT (continued)\n\nED Notes (continued)\n\nED Nursing by Samala, Mary Grace Ann Mallari (R.N.) at 12/2/2019 2034\n\nVersion 2 of 2\n\nAuthor: Samala, Mary Grace Ann Mallari Service: — Author Type: REGISTERED NURSE\n(R.N.)\n\nFiled: 12/2/2019 8:35 PM Date of Service: 12/2/2019 8:34 PM Creation Time: 12/2/2019 8:34 PM\nStatus: Addendum Editor: Samala, Mary Grace Ann Mallari (R.N.) (REGISTERED NURSE)\n\nPt passed bedside swallow screen, able to tolerate liquids without problem. Pt denies any symptoms at this\ntime.\nPt placed on tele monitor, awaiting for US/CT.\n\nBP 134/86 | Pulse 85 | Temp 98.7 °F (37.1 °C) | Resp 18 | Wt 99.8 kg (220 Ib) | SpO2 99% | BMI 28.23\nkg/m?\n\nElectronically signed by Samala, Mary Grace Ann Mallari (R.N.) at 12/2/2019 8:35 PM\n\nVersion 1 of 2"
+    },
+    {
+      "chunk_id": "doc003_p014_c002",
+      "document_id": "doc003",
+      "file_name": "Hospital Encounters.pdf",
+      "page_number": 14,
+      "chunk_index": 1,
+      "text": "Author: Samala, Mary Grace Ann Mallari Service: — Author Type: REGISTERED NURSE\n(R.N.)\n\nFiled: 12/2/2019 8:35 PM Date of Service: 12/2/2019 8:34 PM Creation Time: 12/2/2019 8:34 PM\nStatus: Signed Editor: Samala, Mary Grace Ann Mallari (R.N.) (REGISTERED NURSE)\n\nPt passed bedside swallow screen, able to tolerate liquids without problem. Pt placed on tele monitor,\nawaiting for US/CT.\n\nElectronically signed by Samala, Mary Grace Ann Mallari (R.N.) at 12/2/2019 8:35 PM\n\nED Nursing by Tran, Khai (R.N.) at 12/3/2019 0806\n\nVersion 1 of 1\n\nAuthor: Tran, Khai (R.N.) Service: — Author Type: REGISTERED NURSE\nFiled: 12/3/2019 8:07 AM Date of Service: 12/3/2019 8:06 AM Creation Time: 12/3/2019 8:07 AM\nStatus: Signed Editor: Tran, Khai (R.N.) (REGISTERED NURSE)\n\nPt. Endorsing vision change \"flashes in the right periphery.\" no other NIH change. Ok for ECHO and admit\nper Dr. Liu.\n\nElectronically signed by Tran, Khai (R.N.) at 12/3/2019 8:07 AM\n\nED Care Timeline"
+    },
+    {
+      "chunk_id": "doc003_p014_c003",
+      "document_id": "doc003",
+      "file_name": "Hospital Encounters.pdf",
+      "page_number": 14,
+      "chunk_index": 2,
+      "text": "Patient Care Timeline (12/2/2019 17:50 to 12/3/2019 08:56)\n\n12/2/2019 Event Details User\n17:50 Patient arrived in Medani, Amier\nED\n17:50:05 Emergency Medani, Amier\n\nencounter created\n\nGenerated on 8/27/24 4:29 PM"
+    },
+    {
+      "chunk_id": "doc003_p015_c001",
+      "document_id": "doc003",
+      "file_name": "Hospital Encounters.pdf",
+      "page_number": 15,
+      "chunk_index": 0,
+      "text": "&% KAISER PERMANENTE.\n\nDannemann, William J\n\nMRN: 110016124151, DOB: 12/18/1991,\nLegal Sex: M\n\nSSN: xxx-xx-7829\n\nAdm: 12/2/2019, D/C: 12/4/2019\n\n12/02/2019 - ED to Hosp-Admission (Discharged) in 1 NORTH B NURSING UNIT (continued)\n\nED Care Timeline (continued)\n\n18:00 ED Assess\n\n18:00 ED Intake\n\n18:00:47 Chief Complaints\nUpdated\n\n18:01 Priority\n\n18:01:21 Allergies Reviewed\n\n18:01:28 Patient in Facility\n\n18:01:28 Patient roomed in\nED\n\n18:02:25 Reg Comp Cost\nShare Not Satis\n\n18:06:08 Patient transferred\n\n18:18:56 Patient transferred\n\n18:41:08 Patient transferred\n\n18:41:11 MD assigned\n\n18:41:12 RN assigned\n\nGenerated on 8/27/24 4:29 PM\n\nVital Signs Palmer, Andrew\nBP: 134/86 Zazu (R.N.)\n\nVITAL SIGNS Palmer, Andrew\nTemp: 98.7 °F (37.1 °C) Zazu (R.N.)"
+    },
+    {
+      "chunk_id": "doc003_p015_c002",
+      "document_id": "doc003",
+      "file_name": "Hospital Encounters.pdf",
+      "page_number": 15,
+      "chunk_index": 1,
+      "text": "Temp Source: Oral\nHeart Rate: 85\nResp: 18\nSpO02: 99%\nO2 Delivery: RA-ROOM AIR\nWeight: 99.8 kg (220 Ib)\nPain Assessment\nPain Scale Type: Numeric 0-10 (per patient) (++)\nPain Score: 0\nDomestic Violence\nHave you ever felt afraid of your partner, ex-partner or any family member?:\nNo\nAre you in a relationship in which you have been physically hurt or felt\nthreatened?: No\nPsychological Screening\nAre you at risk of hurting yourself or others?: No\nIntake Complete\nIntake Complete: Yes\n\nNUMBNESS (yesterday 830pm. states 1 minutes of twitching of right Palmer, Andrew\narm, face, leg. then followed by numbess for 5 min. resloved now, talked Zazu (R.N.)\nwith advise rn told to come to ed. )\n\nDecision A Reid, Colton\nArrived requiring immediate life-saving intervention?: No (R.N.)\nDecision B\n\nArrived in high risk situation? or confused/lethargic/disoriented? or severe\npain/distress?: No\n\nDecision C\nHow many different resources are needed?: One, assign Level 4 on Priority\nrow"
+    },
+    {
+      "chunk_id": "doc003_p015_c003",
+      "document_id": "doc003",
+      "file_name": "Hospital Encounters.pdf",
+      "page_number": 15,
+      "chunk_index": 2,
+      "text": "Decision D\nDanger zone vitals?: No\n\nESI Priority\nPriority: 4NonUrg\n\nPalmer, Andrew\nZazu (R.N.)\n\nStatus: In Facility --\n\nTo room SW Palmer, Andrew\nZazu (R.N.)\nMedani, Amier\n\nFrom room SW to room SW Contreras, Trang\nQuynh (R.N.)\n\nFrom room SW to room SW Contreras, Trang\nQuynh (R.N.)\n\nFrom room SW to room RC Sanders, Lindsey\n(R.N.)\n\nMcLeary, Corinne Rachel (M.D.) assigned as Attending Sanders, Lindsey\n(R.N.)\n\nSanders, Lindsey (R.N.) assigned as Registered Nurse Sanders, Lindsey\n(R.N.)"
+    },
+    {
+      "chunk_id": "doc003_p016_c001",
+      "document_id": "doc003",
+      "file_name": "Hospital Encounters.pdf",
+      "page_number": 16,
+      "chunk_index": 0,
+      "text": "& KAISER PERMANENTE.\n\n18:41:17\n\n18:51\n\n18:51\n\n18:51\n\n18:51\n\n18:51\n\n19:34:34\n\n19:34:34\n\nWaiting for MD\n\nRespiratory\nAssessment\n\nNeuro/GCS\nAssessment\n\nModified Schmid\nFall Risk\n\nSafety\nInterventions\n\nBraden Scoring\n\nMD assigned\n\nTeam Member\nRemoved\n\nGenerated on 8/27/24 4:29 PM\n\nDannemann, William J\n\nMRN: 110016124151, DOB: 12/18/1991,\n\nLegal Sex: M\nSSN: xxx-xx-7829\n\nAdm: 12/2/2019, D/C: 12/4/2019\n12/02/2019 - ED to Hosp-Admission (Discharged) in 1 NORTH B NURSING UNIT (continued)\n\nED Care Timeline (continued)\n\nSanders, Lindsey\n(R.N.)\n\nRespiratory WDL** Regular rate, depth and pattern; Breath sounds clear Sanders, Lindsey\n\nand equal bilaterally; Chest Expansion equal; No shortness of breath;\nNo cough or productive sputum; No Tubes, Drains or Airways\n\nDenies Symptoms: Yes\n\nAssessments WDL: WDL\n\nNeurological WDL** Arouses to voice or touch; Awake or alert, opens\neyes spontaneously; Follows Commands; Oriented x 3; Speech\nspontaneous, well paced, logical; No Neurological Symptoms"
+    },
+    {
+      "chunk_id": "doc003_p016_c002",
+      "document_id": "doc003",
+      "file_name": "Hospital Encounters.pdf",
+      "page_number": 16,
+      "chunk_index": 1,
+      "text": "Denies Symptoms: No (~2030 last night, twitching noted to right arm, face,\n\nand leg lasting ~1 min followed by ~5 min of numbness, denies symptoms\n\npresently)\n\nAssessments WDL: WDL\n\nConsciousness Level**: Awake; Alert\n\nOrientation**: PERSON; PLACE; TIME; EVENT; APPROPRIATE FOR AGE\n\nAND DEVELOPMENTAL STAGE\n\nSpeech**: SPONTANEOUS, WELL PACED, LOGICAL; CLEAR\n\nFollows Commands**: Follows Simple; Follows Complex\n\nRight Upper Extremity Strength**: NORMAL FULL STRENGTH AGAINST\n\nRESISTANCE\n\nLeft Upper Extremity Strength**: NORMAL FULL STRENGTH AGAINST\n\nRESISTANCE\n\nRight Lower Extremity Strength**: NORMAL FULL STRENGTH AGAINST\n\nRESISTANCE\n\nLeft Lower Extremity Strength**: NORMAL FULL STRENGTH AGAINST\n\nRESISTANCE\n\nRight Upper Extremity Movement**: Voluntary Motor\n\nLeft Upper Extremity Movement**: Voluntary Motor\n\nRight Lower Extremity Movement**: Voluntary Motor\n\nLeft Lower Extremity Movement**: Voluntary Motor"
+    },
+    {
+      "chunk_id": "doc003_p016_c003",
+      "document_id": "doc003",
+      "file_name": "Hospital Encounters.pdf",
+      "page_number": 16,
+      "chunk_index": 2,
+      "text": "Modified Schmid Fall Risk\nMobility: 0-AMBULATES WITH NO GAIT DISTURBANCE\nMentation: 0-ALERT, ORIENTED X 3\nElimination: 0-INDEPENDENT IN ELIMINATION\nPrior History of Falls: 0-NO\nCurrent Medications: 0-NO ANTI-CONVULSANTS/TRANQUILIZERS OR\nPSYCHOTROPICS/HYPNOTICS\nTotal Score: 0\n\nSafety Interventions\nPatient Safety: ID Band Check; Bed in Low Position\nSide Rails: BOTH UPPERS - SIDE RAILS\nPatient Rounds: Awake\nPrecautions: Family at Bedside\n\nBraden Scale for Predicting Pressure Sore Risk ©1988\nSensory Perception: NO IMPAIRMENT\nMoisture: RARELY MOIST\nActivity: WALKS FREQUENTLY\nMobility: NO LIMITATION\nNutrition: EXCELLENT\nFriction and Shear: NO APPARENT PROBLEM\nBraden Scale Total: 23\n\nJoseph, Tony Abraham (M.D.) assigned as Attending\n\nMcLeary, Corinne Rachel (M.D.) removed as Attending\n\n(R.N.)\n\nSanders, Lindsey\n(R.N.)\n\nSanders, Lindsey\n(R.N.)\n\nSanders, Lindsey\n(R.N.)\n\nSanders, Lindsey\n(R.N.)\n\nJoseph, Tony\nAbraham (M.D.)\nJoseph, Tony\nAbraham (M.D.)"
+    },
+    {
+      "chunk_id": "doc003_p017_c001",
+      "document_id": "doc003",
+      "file_name": "Hospital Encounters.pdf",
+      "page_number": 17,
+      "chunk_index": 0,
+      "text": "#4 KAISER PERMANENTE.\n\nDannemann, William J\n\nMRN: 110016124151, DOB: 12/18/1991,\nLegal Sex: M\n\nSSN: xxx-xx-7829\n\nAdm: 12/2/2019, D/C: 12/4/2019\n\n12/02/2019 - ED to Hosp-Admission (Discharged) in 1 NORTH B NURSING UNIT (continued)\n\nED Care Timeline (continued)\n\n19:34:36\n\n19:37:13\n\n19:37:13\n\n19:37:13\n\n19:37:22\n\n19:37:22\n\n19:37:23\n\n19:40:58\n\n19:41:24\n\n19:41:54\n\n19:41:59\n\n19:42:01\n\n19:43:01\n\n19:46\n\n19:55:41\n\n19:55:41\n\n19:57\n\n19:57\n\n19:57\n\nMD started\nOrders Placed\n\nLab(s) ordered\n\nOrders Placed\n\nLab(s) ordered\nOrders Placed\nPatient transferred\nRN assigned\n\nOrders\nAcknowledged\n\nCharting Declined\n\nOrders\nAcknowledged\nOrders\nAcknowledged\nTeam Member\nRemoved\nSpecimens\nCollected\n\nLab(s) ordered\nLab(s) ordered\nPeripheral IV 20 G\n\nRight Antecubital\nPlaced\n\nLDA's\n\nPeripheral IV 20 G\nRight Antecubital\nAssessment\n\nGenerated on 8/27/24 4:29 PM\n\nNursing - PERFORM INTRAVENOUS LINE CARE Place peripheral IV\n\nJoseph, Tony\nAbraham (M.D.)\nWatson, Jessica\n(M.D.)"
+    },
+    {
+      "chunk_id": "doc003_p017_c002",
+      "document_id": "doc003",
+      "file_name": "Hospital Encounters.pdf",
+      "page_number": 17,
+      "chunk_index": 1,
+      "text": "TROPONIN I, CHEM 7 (NA, K, CL, CO2, BUN, GLUC, CR), CBC + DIFF Joseph, Tony\n\n(FAC LAB).\n\nAbraham (M.D.)\n\nLab - CBC + DIFF (FAC LAB).; CHEM 7 (NA, K, CL, CO2, BUN, GLUC, CR); Joseph, Tony\n\nTROPONIN |\n\nAbraham (M.D.)\n\nEKG - EKG 12 OR MORE LEADS W INT & RPT\n\nTSH\n\nLab - TSH\n\nFrom room RC to room PC\n\nSamala, Kristine Imee (R.N.) assigned as Registered Nurse\n\nJoseph, Tony\nAbraham (M.D.)\nJoseph, Tony\nAbraham (M.D.)\nRaffa, Scott P\n(R.N.)\n\nRaffa, Scott P\n(R.N.)\n\nNew - CBC + DIFF (FAC LAB).; CHEM 7 (NA, K, CL, CO2, BUN, GLUC, CR); Samala, Kristine\n\nTROPONIN |; TSH\n\nNew - EKG 12 OR MORE LEADS W INT & RPT\nNew - PERFORM INTRAVENOUS LINE CARE Place peripheral IV\n\nSanders, Lindsey (R.N.) removed as Registered Nurse\n\nImee (R.N.)\n\nMcLeary, Corinne\nRachel (M.D.)\nSamala, Kristine\nImee (R.N.)\nSamala, Kristine\nImee (R.N.)\nSanders, Lindsey\n(R.N.)"
+    },
+    {
+      "chunk_id": "doc003_p017_c003",
+      "document_id": "doc003",
+      "file_name": "Hospital Encounters.pdf",
+      "page_number": 17,
+      "chunk_index": 2,
+      "text": "CBC + DIFF (FAC LAB). CHEM 7 (NA, K, CL, CO2, BUN, GLUC, CR) - ID:\n311933614418 TROPONIN | - ID: 311933614419 TSH - ID:\n311933614418 CBC W AUTOMATED DIFFERENTIAL - ID: 311933614417\nWBC AUTOMATED DIFFERENTIAL - ID: 311933614417\n\nCBC W AUTOMATED DIFFERENTIAL\nWBC AUTOMATED DIFFERENTIAL\n\nRemoval/Disposition Date/Removal/Disposition Time: 12/03/19 0630\n\nLab Results,\nInbound\n\nLab Results,\nInbound\nSamala, Kristine\n\nPlacement Date/Time: 12/02/19 1957 Size (Gauge): 20 G Orientation: Right Imee (R.N.)\nSite: Antecubital Disposition: Removed Reason for removal: Per\n\npatient/family request Catheter Intact whe...\n\nAdd LDA Groups\n\nAdd Line: Peripheral IV (++)\n\nAssessments: WDL\n\nSamala, Kristine\nImee (R.N.)\n\nSamala, Kristine\nImee (R.N.)"
+    },
+    {
+      "chunk_id": "doc003_p018_c001",
+      "document_id": "doc003",
+      "file_name": "Hospital Encounters.pdf",
+      "page_number": 18,
+      "chunk_index": 0,
+      "text": "&%, KAISER PERMANENTE.\n\nDannemann, William J\n\nMRN: 110016124151, DOB: 12/18/1991,\nLegal Sex: M\n\nSSN: xxx-xx-7829\n\nAdm: 12/2/2019, D/C: 12/4/2019\n\n12/02/2019 - ED to Hosp-Admission (Discharged) in 1 NORTH B NURSING UNIT (continued)\n\nED Care Timeline (continued)\n\n20:00 Swallow Screen\n\nGenerated on 8/27/24 4:29 PM\n\nPART | - PATIENT HISTORY - If YES, refer immediately to ST/OT for Samala, Mary\ndysphagia evaluation. Keep patient NPO including meds. Initiate Grace Ann Mallari\nAspirations Precautions - Place aspiration precautions sign, elevate (R.N.)\nhead of bed at least 30 degrees, place suction at bedside, no water or\nstraws at bedside. Notify MD to consider need for alternative nutrition,\nhydration, and route to administer medications.\n\nTracheostomy: Continue Screening\n\nAspiration Pneumonia: Continue Screening\n\nCurrently NPO with Tube Feeding: Continue Screening\nPART | - PREPARE PATIENT\n\nIs patient seated appropriately for eating: Continue Screening"
+    },
+    {
+      "chunk_id": "doc003_p018_c002",
+      "document_id": "doc003",
+      "file_name": "Hospital Encounters.pdf",
+      "page_number": 18,
+      "chunk_index": 1,
+      "text": "Oral Cavity and back of throat clear: Continue Screening\nPART Il - LEVEL OF CONSCIOUSNESS - If NO, refer immediately to\nST/OT for dysphagia evaluation. Keep patient NPO including meds.\nInitiate Aspirations Precautions - Place aspiration precautions sign,\nelevate head of bed at least 30 degrees, place suction at bedside, no\nwater or straws at bedside. Notify MD to consider need for alternative\nnutrition, hydration, and route to administer medications.\n\nIs patient awake/alert for 20 min continuously: Continue Screening\n\nDoes the patient attend with cues: Continue Screening\nPART Il - SECRETIONS TONGUE CONTROL - If NO, refer immediately to\nST/OT for dysphagia evaluation. Keep patient NPO including meds.\nInitiate Aspirations Precautions - Place aspiration precautions sign,\nelevate head of bed at least 30 degrees, place suction at bedside, no\nwater or straws at bedside. Notify MD to consider need for alternative\nnutrition, hydration, and route to administer medications."
+    },
+    {
+      "chunk_id": "doc003_p018_c003",
+      "document_id": "doc003",
+      "file_name": "Hospital Encounters.pdf",
+      "page_number": 18,
+      "chunk_index": 2,
+      "text": "Able to swallow own secretions: Continue Screening\n\nHandles secretions without drooling: Continue Screening\n\nAble to manage saliva without coughing: Continue Screening\n\nAble to move tongue side to side up and down: Continue Screening\n\nAble to smile and pucker: Continue Screening\nPART Il - SOUNDS AND COUGH - If NO, refer immediately to ST/OT for\ndysphagia evaluation. Keep patient NPO including meds. Initiate\nAspirations Precautions - Place aspiration precautions sign, elevate\nhead of bed at least 30 degrees, place suction at bedside, no water or\nstraws at bedside. Notify MD to consider need for alternative nutrition,\nhydration, and route to administer medications.\n\nAble to make sounds (e.g. grunting OR Speech): Continue Screening"
+    },
+    {
+      "chunk_id": "doc003_p018_c004",
+      "document_id": "doc003",
+      "file_name": "Hospital Encounters.pdf",
+      "page_number": 18,
+      "chunk_index": 3,
+      "text": "Able to cough on command: Continue Screening\nPART Il - VOCAL QUALITY AND SPEECH - If NO, refer immediately to\nST/OT for dysphagia evaluation. Keep patient NPO including meds.\nInitiate Aspirations Precautions - Place aspiration precautions sign,\nelevate head of bed at least 30 degrees, place suction at bedside, no\nwater or straws at bedside. Notify MD to consider need for alternative\nnutrition, hydration, and route to administer medications.\n\nSpeech is clear, not slurred/dysarthric: Continue Screening\n\nVoice sounds strong and clear: Continue Screening\n\nVoice does not sound wet/weak/hoarse: Continue Screening"
+    },
+    {
+      "chunk_id": "doc003_p018_c005",
+      "document_id": "doc003",
+      "file_name": "Hospital Encounters.pdf",
+      "page_number": 18,
+      "chunk_index": 4,
+      "text": "Patient is able to say an extended \"ahh\": Continue Screening\nPART Il - LARYNGEAL MOVEMENT - If NO, refer immediately to ST/OT\nfor dysphagia evaluation. Keep patient NPO including meds. Initiate\nAspirations Precautions - Place aspiration precautions sign, elevate\nhead of bed at least 30 degrees, place suction at bedside, no water or\nstraws at bedside. Notify MD to consider need for alternative nutrition,\nhydration, and route to administer medications.\n\nA rise in the larynx is felt when patient swallows: Continue Screening\nPART Ill -LARYNGEAL MOVEMENT WITH 1/2 TSP ICE CHIPS - If NO,\nrefer immediately to ST/OT for dysphagia evaluation. Keep patient NPO\nincluding meds. Initiate Aspirations Precautions - Place aspiration\nprecautions sign, elevate head of bed at least 30 degrees, place suction\nat bedside, no water or straws at bedside. Notify MD to consider need\nfor alternative nutrition, hydration, and route to administer medications."
+    },
+    {
+      "chunk_id": "doc003_p019_c001",
+      "document_id": "doc003",
+      "file_name": "Hospital Encounters.pdf",
+      "page_number": 19,
+      "chunk_index": 0,
+      "text": "&% KAISER PERMANENTE.\n\nDannemann, William J\n\nMRN: 110016124151, DOB: 12/18/1991,\nLegal Sex: M\n\nSSN: xxx-xx-7829\n\nAdm: 12/2/2019, D/C: 12/4/2019\n\n12/02/2019 - ED to Hosp-Admission (Discharged) in 1 NORTH B NURSING UNIT (continued)\n\nED Care Timeline (continued)\n\nGenerated on 8/27/24 4:29 PM\n\nPatient responds to ice (1/2 tsp) in mouth: Continue Screening\n\nRise in the larynx is felt when patient swallows ice: Continue Screening\n\nTolerates w/o coughing during AND 1 minute after: Continue Screening\n\nTolerates w/o throat clearing during AND 1 minute after: Continue\n\nScreening"
+    },
+    {
+      "chunk_id": "doc003_p019_c002",
+      "document_id": "doc003",
+      "file_name": "Hospital Encounters.pdf",
+      "page_number": 19,
+      "chunk_index": 1,
+      "text": "Voice clear when saying and extended \"ahh\": Continue Screening\nPART Ill - IF PT PASSES ICE CHIP TEST: REPEAT WITH WATER\nprogressing from sip , from cup and then 90ml (30z) drinking\nCONTINUOUSLY without interruption (may use straw) - If NO, refer\nimmediately to ST/OT for dysphagia evaluation. Keep patient NPO\nincluding meds. Notify MD to consider need for alternative nutrition,\nhydration, and route to administer medications; ‘initiate Aspiration\nPrecautions\n\nPatient responds to water (90 ml) in mouth: Continue Screening\n\nRise in the larynx is felt when patient swallows water: Continue Screening\n\nTolerates w/o coughing during AND 1 minute after: Continue Screening\n\nTolerates w/o throat clearing during AND 1 minute after: Continue\n\nScreening\n\nVoice clear when saying and extended \"ahh\": Continue Screening\n\nPatient passed swallow screen: Yes, Notified physician for diet order\nNIHSS\n\nLevel of Consciousness “: Alert, keenly responsive"
+    },
+    {
+      "chunk_id": "doc003_p019_c003",
+      "document_id": "doc003",
+      "file_name": "Hospital Encounters.pdf",
+      "page_number": 19,
+      "chunk_index": 2,
+      "text": "Ask Patient the Month & His/Her Age: ANSWERS BOTH CORRECTLY\n\nAsk Patient to Open Eyes/Make a Fist! PERFORMS BOTH TASKS\n\nCORRECTLY\n\nBest Gaze: Horizontal Ocular Movement: NORMAL HORIZONTAL\n\nMOVEMENT\n\nVisual Field Assessment: NO VISUAL LOSS\n\nFacial Paresis: Normal symmetrical movements\n\nMotor Function Right Arm *: NORMAL NO DRIFT\n\nMotor Function Left Arm *: NORMAL NO DRIFT\n\nMotor Function Right Leg *: NORMAL NO DRIFT\n\nMotor Function Left Leg *: NORMAL NO DRIFT\n\nLimb Ataxia: Absent\n\nSensory Perception: NORMAL\n\nBest Language *: NORMAL\n\nDysarthria *: Normal\n\nExtinction/ Neglect. NORMAL, NONE DETECTED RO VISUAL LOSS\n\nALONE\n\nNIHSS Total Score: 0\n\nNotify Physician (date/time): 0\nmNIHSS (Modified National Institutes of Health Stroke Scale)\n\nAsk Patient the Month & His/Her Age: ANSWERS BOTH CORRECTLY\n\nAsk Patient to Open Eyes/Make a Fist! PERFORMS BOTH TASKS\n\nCORRECTLY\n\nBest Gaze: Horizontal Ocular Movement: NORMAL HORIZONTAL\n\nMOVEMENT\n\nVisual Field Assessment: NO VISUAL LOSS"
+    },
+    {
+      "chunk_id": "doc003_p019_c004",
+      "document_id": "doc003",
+      "file_name": "Hospital Encounters.pdf",
+      "page_number": 19,
+      "chunk_index": 3,
+      "text": "Motor Function Right Arm *: NORMAL NO DRIFT\n\nMotor Function Left Arm *: NORMAL NO DRIFT\n\nMotor Function Right Leg *: NORMAL NO DRIFT\n\nMotor Function Left Leg *: NORMAL NO DRIFT\n\nBest Language *: NORMAL\n\nExtinction/ Neglect. NORMAL, NONE DETECTED RO VISUAL LOSS\n\nALONE\n\nNotify Physician (date/time): 0"
+    },
+    {
+      "chunk_id": "doc003_p020_c001",
+      "document_id": "doc003",
+      "file_name": "Hospital Encounters.pdf",
+      "page_number": 20,
+      "chunk_index": 0,
+      "text": "&% KAISER PERMANENTE.\n\nDannemann, William J\n\nMRN: 110016124151, DOB: 12/18/1991,\nLegal Sex: M\n\nSSN: xxx-xx-7829\n\nAdm: 12/2/2019, D/C: 12/4/2019\n\n12/02/2019 - ED to Hosp-Admission (Discharged) in 1 NORTH B NURSING UNIT (continued)\n\nED Care Timeline (continued)\n\n20:12\n\n20:12\n\n20:12:15\n\n20:12:15\n\n20:12:15\n\n20:13:06\n\n20:13:53\n\n20:13:53\n\n20:13:54\n\n20:16:20\n\n20:16:30\n\n20:16:36\n\n20:17:05\n\n20:18:54\n\nCBC W\nAUTOMATED\nDIFFERENTIAL\nResulted\n\nWBC AUTOMATED\n\nDIFFERENTIAL\nResulted\n\nLab(s) reported\nLab(s) reported\nLab(s) reported\n\nRN assigned\n\nOrders Placed\n\nOrders Placed\n\nDiagnostic imaging\n\nordered\nOrders\nAcknowledged\n\nOrders\nAcknowledged\n\nOrders\nAcknowledged\n\nOrders\nAcknowledged\n\nLab(s) reported\n\nGenerated on 8/27/24 4:29 PM"
+    },
+    {
+      "chunk_id": "doc003_p020_c002",
+      "document_id": "doc003",
+      "file_name": "Hospital Encounters.pdf",
+      "page_number": 20,
+      "chunk_index": 1,
+      "text": "Collected: 12/2/2019 19:46 Last updated: 12/2/2019 20:12 Status: Final\nresult WBC COUNT: 5.5 K/uL [Ref Range: 3.7 - 11.1] Red blood cells count:\n4.67 M/uL [Ref Range: 4.10 - 5.70] Hgb: 14.5 g/dL [Ref Range: 13.0 - 17.0]\nHematocrit: 41.8 % [Ref Range: 39.0 - 51.0] MCV: 90 fL [Ref Range: 80 - 100]\nRDW, RBC: 12.1 % [Ref Range: 12.0 - 16.5] Platelets count: 193 K/uL [Ref\nRange: 140 - 400] RBC's, nucleated: 0 /100WC [Ref Range: <=0] Differential\npanel: AUTO DIF\n\nNguyen, Anh T\n\nCollected: 12/2/2019 19:46 Last updated: 12/2/2019 20:12 Status: Final\nresult Neutrophils %, Automated count: 58 % [Ref Range: 42 - 76]\nLymphocytes %, Automated count: 30 % [Ref Range: 15 - 47] Monocytes %,\nAutomated Count: 9 % [Ref Range: 5 - 13] Eosinophils %, Automated Count:\n3 % [Ref Range: 0 - 7] Basophils %, Automated Count: 1 % [Ref Range: 0 - 1]\nNeutrophils, Automated Count: 3.2 K/uL [Ref Range: 1.8 - 7.9]\n\nNguyen, Anh T\n\n(Final result) CBC W AUTOMATED DIFFERENTIAL Lab Results,\nInbound\n\nLab Results,\nInbound"
+    },
+    {
+      "chunk_id": "doc003_p020_c003",
+      "document_id": "doc003",
+      "file_name": "Hospital Encounters.pdf",
+      "page_number": 20,
+      "chunk_index": 2,
+      "text": "Lab Results,\nInbound\nSamala, Mary\nGrace Ann Mallari\n(R.N.)\n\nNursing HL - SWALLOWING SCREENING-BEDSIDE RNBedside swallow Watson, Jessica\nscreen by nurse. If patient fails, keep patient NPO and contact physician to (M.D.)\n\ninitiate HAP protocol if not already ordered and refer to speech/ occupational\n\ntherapy for dysphagia evaluation. If patient...\n\nCardiac Monitor - INITIATE CARDIAC MONITORING .Stroke or other major\n\nCNS event; No; Yes - Clinically stable ED patient\n\n(Final result) WBC AUTOMATED DIFFERENTIAL\n(Final result) CBC + DIFF (FAC LAB).\n\nSamala, Mary Grace Ann Mallari (R.N.) assigned as Registered Nurse\n\nImaging - CT HEAD; US VASCULAR Joseph, Tony\n\nAbraham (M.D.)\n\nJoseph, Tony\n\nAbraham (M.D.)\n\nSamala, Mary\n\nGrace Ann Mallari\n\n(R.N.)\n\nSamala, Mary\n\nGrace Ann Mallari\n\n(R.N.)\n\nNew - INITIATE CARDIAC MONITORING .Stroke or other major CNS event; Samala, Mary\n\nNo; Yes - Clinically stable ED patient Grace Ann Mallari\n(R.N.)"
+    },
+    {
+      "chunk_id": "doc003_p020_c004",
+      "document_id": "doc003",
+      "file_name": "Hospital Encounters.pdf",
+      "page_number": 20,
+      "chunk_index": 3,
+      "text": "New - SWALLOWING SCREENING-BEDSIDE RNBedside swallow screen Samala, Mary\n\nby nurse. If patient fails, keep patient NPO and contact physician to initiate Grace Ann Mallari\n\nHAP protocol if not already ordered and refer to speech/ occupational therapy (R.N.)\n\nfor dysphagia evaluation. If patient...\n\nUS VASCULAR, CT HEAD\n\nNew - CT HEAD\n\nNew - US VASCULAR\n\n(Final result) TROPONIN | Lab Results,\n\nInbound"
+    }
+  ]
+}
